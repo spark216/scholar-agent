@@ -1,0 +1,51 @@
+:root {
+  --ink: #0f2a33;
+  --ink-soft: #1a3d49;
+  --sea: #1f6f78;
+  --sea-bright: #2a9aa4;
+  --foam: #e8f4f2;
+  --paper: #f7f3ea;
+  --copper: #c47a3a;
+  --line: rgba(15, 42, 51, 0.12);
+  --text: #17343c;
+  --muted: #5b737a;
+  --high: #1f7a4d;
+  --partial: #9a6b2f;
+  --shadow: 0 18px 50px rgba(15, 42, 51, 0.12);
+  --radius: 18px;
+  font-family: 'Manrope', sans-serif;
+  color: var(--text);
+  background: var(--foam);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(42, 154, 164, 0.22), transparent 60%),
+    radial-gradient(900px 500px at 90% 0%, rgba(196, 122, 58, 0.16), transparent 55%),
+    linear-gradient(180deg, #eef6f5 0%, #f7f3ea 48%, #e9f1ef 100%);
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}

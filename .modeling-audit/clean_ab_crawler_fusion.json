@@ -1,0 +1,33 @@
+{
+  "experiment": "clean A/B crawler fusion (provider cache cleared, symmetric fresh calls)",
+  "date": "2026-08-24",
+  "run_A_selector_only": "6ff9307d7cf1",
+  "run_B_crawler_fusion": "72064c9d7478",
+  "conclusion": "crawler query fusion (append-to-understanding) hurts end-to-end retrieval: gold lost at provider stage (Q7 19->8). Not a ranking problem. Selector-only (A) is current best and stable.",
+  "metrics_@5": {
+    "A": {
+      "hits": 11,
+      "mrr": 0.74,
+      "f1": 0.255,
+      "r": 0.225,
+      "p": 0.44
+    },
+    "B": {
+      "hits": 8,
+      "mrr": 0.407,
+      "f1": 0.17,
+      "r": 0.146,
+      "p": 0.32
+    }
+  },
+  "metrics_@20": {
+    "A": {
+      "hits": 20,
+      "r": 0.297
+    },
+    "B": {
+      "hits": 14,
+      "r": 0.183
+    }
+  }
+}

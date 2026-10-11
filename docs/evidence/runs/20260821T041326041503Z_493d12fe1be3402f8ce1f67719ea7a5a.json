@@ -1,0 +1,1691 @@
+{
+  "run_id": "493d12fe1be3402f8ce1f67719ea7a5a",
+  "dataset": {
+    "id": "pasa-real",
+    "name": "PaSa RealScholarQuery",
+    "split": "test",
+    "available": true,
+    "sample_count": 50,
+    "source_path": "D:\\Project\\huawei-paper-search-main\\backend\\paper-test\\datasets\\RealScholarQuery\\test.jsonl",
+    "description": "50 条真实学术检索问题，适合小规模端到端效果验证。",
+    "evaluation_family": "pasa",
+    "requires_network": true
+  },
+  "sample_limit": 5,
+  "sample_count": 5,
+  "total_relevant": 82,
+  "ks": [
+    5,
+    10
+  ],
+  "seed": 42,
+  "use_mock": false,
+  "aggregate": {
+    "5": {
+      "k": 5,
+      "precision": 0.08,
+      "recall": 0.04689655172413794,
+      "f1": 0.05176470588235295,
+      "ndcg": 0.10174806158208485,
+      "mrr": 0.26666666666666666,
+      "hits": 2
+    },
+    "10": {
+      "k": 10,
+      "precision": 0.04,
+      "recall": 0.04689655172413794,
+      "f1": 0.036923076923076927,
+      "ndcg": 0.07793437378697765,
+      "mrr": 0.26666666666666666,
+      "hits": 2
+    }
+  },
+  "queries": [
+    {
+      "qid": "RealScholarQuery_1",
+      "query": "Give me papers that share some insights about how large language models gain in-context learning capability in the process of pre-training.",
+      "relevant_count": 29,
+      "returned_count": 10,
+      "matched_titles": [
+        "Pre-Training to Learn in Context"
+      ],
+      "metrics": {
+        "5": {
+          "k": 5,
+          "precision": 0.2,
+          "recall": 0.034482758620689655,
+          "f1": 0.0588235294117647,
+          "ndcg": 0.3391602052736161,
+          "mrr": 1.0,
+          "hits": 1
+        },
+        "10": {
+          "k": 10,
+          "precision": 0.1,
+          "recall": 0.034482758620689655,
+          "f1": 0.05128205128205129,
+          "ndcg": 0.22009176629808017,
+          "mrr": 1.0,
+          "hits": 1
+        }
+      },
+      "latency_ms": 253823.3189000166,
+      "api_calls": 12,
+      "token_usage": 0,
+      "error": null,
+      "error_category": null,
+      "asta_official": null,
+      "stage_metrics": {
+        "provider": {
+          "candidate_count": 99,
+          "gold_hits": 5,
+          "candidate_recall": 0.1724137931034483,
+          "matched_titles": [
+            "Understanding in-context learning via supportive pretraining data",
+            "In-context Pretraining: Language Modeling Beyond Document Boundaries",
+            "Pre-Training to Learn in Context",
+            "Parallel Structures in Pre-training Data Yield In-Context Learning",
+            "Investigating the Pre-Training Dynamics of In-Context Learning: Task Recognition vs. Task Learning"
+          ],
+          "matched_ranks": [
+            2,
+            4,
+            5,
+            40,
+            45
+          ]
+        },
+        "merged": {
+          "candidate_count": 84,
+          "gold_hits": 5,
+          "candidate_recall": 0.1724137931034483,
+          "matched_titles": [
+            "Understanding in-context learning via supportive pretraining data",
+            "In-context Pretraining: Language Modeling Beyond Document Boundaries",
+            "Pre-Training to Learn in Context",
+            "Parallel Structures in Pre-training Data Yield In-Context Learning",
+            "Investigating the Pre-Training Dynamics of In-Context Learning: Task Recognition vs. Task Learning"
+          ],
+          "matched_ranks": [
+            2,
+            4,
+            5,
+            36,
+            40
+          ]
+        },
+        "budget": {
+          "candidate_count": 84,
+          "gold_hits": 5,
+          "candidate_recall": 0.1724137931034483,
+          "matched_titles": [
+            "Understanding in-context learning via supportive pretraining data",
+            "In-context Pretraining: Language Modeling Beyond Document Boundaries",
+            "Pre-Training to Learn in Context",
+            "Parallel Structures in Pre-training Data Yield In-Context Learning",
+            "Investigating the Pre-Training Dynamics of In-Context Learning: Task Recognition vs. Task Learning"
+          ],
+          "matched_ranks": [
+            2,
+            4,
+            5,
+            36,
+            40
+          ]
+        },
+        "ranking": {
+          "candidate_count": 84,
+          "gold_hits": 5,
+          "candidate_recall": 0.1724137931034483,
+          "matched_titles": [
+            "Pre-Training to Learn in Context",
+            "Parallel Structures in Pre-training Data Yield In-Context Learning",
+            "Understanding in-context learning via supportive pretraining data",
+            "In-context Pretraining: Language Modeling Beyond Document Boundaries",
+            "Investigating the Pre-Training Dynamics of In-Context Learning: Task Recognition vs. Task Learning"
+          ],
+          "matched_ranks": [
+            1,
+            18,
+            19,
+            25,
+            33
+          ]
+        },
+        "final": {
+          "candidate_count": 10,
+          "gold_hits": 1,
+          "candidate_recall": 0.034482758620689655,
+          "matched_titles": [
+            "Pre-Training to Learn in Context"
+          ],
+          "matched_ranks": [
+            1
+          ]
+        }
+      },
+      "first_seen_stage": "provider",
+      "loss_stage": "final",
+      "provider_diagnostics": [
+        {
+          "iteration": 1,
+          "provider": "serper-scholar",
+          "query": "Give me papers that share some insights about how large language models gain in-context learning capability in the process of pre-training.",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 10,
+          "returned_count": 10,
+          "api_calls": 0,
+          "latency_ms": 0.0,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": true,
+          "skipped": null
+        },
+        {
+          "iteration": 1,
+          "provider": "openalex",
+          "query": "Give me papers that share some insights about how large language models gain in-context learning capability in the process of pre-training.",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 1,
+          "latency_ms": 9.824700013268739,
+          "error": "RuntimeError",
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 1,
+          "provider": "semantic-scholar",
+          "query": "Give me papers that share some insights about how large language models gain in-context learning capability in the process of pre-training.",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 2,
+          "latency_ms": 3466.896200028714,
+          "error": "HTTP429",
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 1,
+          "provider": "arxiv",
+          "query": "(all:\"large language models in-context learning pre-training\" OR (all:\"pre-training\" AND all:\"in-context\") OR (all:\"large\" OR all:\"language\" OR all:\"models\" OR all:\"in-context\" OR all:\"learning\"))",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 20,
+          "returned_count": 20,
+          "api_calls": 1,
+          "latency_ms": 4698.272900015581,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 1,
+          "provider": "pasa-local-corpus",
+          "query": "Give me papers that share some insights about how large language models gain in-context learning capability in the process of pre-training.",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 0,
+          "latency_ms": 73147.27750001475,
+          "error": "PermissionError",
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 1,
+          "provider": "tavily",
+          "query": "Give me papers that share some insights about how large language models gain in-context learning capability in the process of pre-training.",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 20,
+          "returned_count": 3,
+          "api_calls": 0,
+          "latency_ms": 2.3435999755747616,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": true,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "openalex",
+          "query": "Give me papers that share some insights about how large language models gain in-context learning capability in the process of pre-training. academic papers cs.CL cs.LG",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 1,
+          "latency_ms": 11.505700007546693,
+          "error": "RuntimeError",
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "semantic-scholar",
+          "query": "Give me papers that share some insights about how large language models gain in-context learning capability in the process of pre-training. academic papers cs.CL cs.LG",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 2,
+          "latency_ms": 1518.7459000153467,
+          "error": "HTTP429",
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "arxiv",
+          "query": "(all:\"language in-context learning pre-training cs.CL cs.LG\" OR (all:\"pre-training\" AND all:\"in-context\") OR (all:\"language\" OR all:\"in-context\" OR all:\"learning\" OR all:\"pre-training\" OR all:\"cs.CL\"))",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 20,
+          "returned_count": 20,
+          "api_calls": 1,
+          "latency_ms": 3050.0819999724627,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "arxiv",
+          "query": "(all:\"language in-context learning pre-training cs.CL cs.LG\" OR (all:\"pre-training\" AND all:\"in-context\") OR (all:\"language\" OR all:\"in-context\" OR all:\"learning\" OR all:\"pre-training\" OR all:\"cs.CL\"))",
+          "queries": [],
+          "offset": 20,
+          "raw_count": 20,
+          "returned_count": 20,
+          "api_calls": 1,
+          "latency_ms": 3267.6832000142895,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "serper-scholar",
+          "query": "Give me papers that share some insights about how large language models gain in-context learning capability in the process of pre-training. academic papers cs.CL cs.LG",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 10,
+          "returned_count": 10,
+          "api_calls": 1,
+          "latency_ms": 3381.9453999749385,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "serper-scholar",
+          "query": "Give me papers that share some insights about how large language models gain in-context learning capability in the process of pre-training. academic papers cs.CL cs.LG",
+          "queries": [],
+          "offset": 20,
+          "raw_count": 10,
+          "returned_count": 10,
+          "api_calls": 1,
+          "latency_ms": 2275.6866999552585,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "pasa-local-corpus",
+          "query": "Give me papers that share some insights about how large language models gain in-context learning capability in the process of pre-training. academic papers cs.CL cs.LG",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 0,
+          "latency_ms": 72149.75659997435,
+          "error": "PermissionError",
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "pasa-local-corpus",
+          "query": "Give me papers that share some insights about how large language models gain in-context learning capability in the process of pre-training. academic papers cs.CL cs.LG",
+          "queries": [],
+          "offset": 20,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 0,
+          "latency_ms": 72864.41199999535,
+          "error": "PermissionError",
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "tavily",
+          "query": "Give me papers that share some insights about how large language models gain in-context learning capability in the process of pre-training. academic papers cs.CL cs.LG",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 20,
+          "returned_count": 7,
+          "api_calls": 1,
+          "latency_ms": 8212.628999957815,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        }
+      ],
+      "provider_snapshot_sha256": "d3bcf26986d218b987b93005d244dbe614c96cb7e35a96e54c37987cf5eaea3f"
+    },
+    {
+      "qid": "RealScholarQuery_7",
+      "query": "Show me research on the long video description. Here, long videos are defined as those with a duration of at least several minutes.",
+      "relevant_count": 35,
+      "returned_count": 10,
+      "matched_titles": [],
+      "metrics": {
+        "5": {
+          "k": 5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ndcg": 0.0,
+          "mrr": 0.0,
+          "hits": 0
+        },
+        "10": {
+          "k": 10,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ndcg": 0.0,
+          "mrr": 0.0,
+          "hits": 0
+        }
+      },
+      "latency_ms": 223642.03129999805,
+      "api_calls": 5,
+      "token_usage": 0,
+      "error": null,
+      "error_category": null,
+      "asta_official": null,
+      "stage_metrics": {
+        "provider": {
+          "candidate_count": 100,
+          "gold_hits": 1,
+          "candidate_recall": 0.02857142857142857,
+          "matched_titles": [
+            "LongVLM: Efficient Long Video Understanding via Large Language Models"
+          ],
+          "matched_ranks": [
+            4
+          ]
+        },
+        "merged": {
+          "candidate_count": 100,
+          "gold_hits": 1,
+          "candidate_recall": 0.02857142857142857,
+          "matched_titles": [
+            "LongVLM: Efficient Long Video Understanding via Large Language Models"
+          ],
+          "matched_ranks": [
+            4
+          ]
+        },
+        "budget": {
+          "candidate_count": 100,
+          "gold_hits": 1,
+          "candidate_recall": 0.02857142857142857,
+          "matched_titles": [
+            "LongVLM: Efficient Long Video Understanding via Large Language Models"
+          ],
+          "matched_ranks": [
+            4
+          ]
+        },
+        "ranking": {
+          "candidate_count": 100,
+          "gold_hits": 1,
+          "candidate_recall": 0.02857142857142857,
+          "matched_titles": [
+            "LongVLM: Efficient Long Video Understanding via Large Language Models"
+          ],
+          "matched_ranks": [
+            12
+          ]
+        },
+        "final": {
+          "candidate_count": 10,
+          "gold_hits": 0,
+          "candidate_recall": 0.0,
+          "matched_titles": [],
+          "matched_ranks": []
+        }
+      },
+      "first_seen_stage": "provider",
+      "loss_stage": "final",
+      "provider_diagnostics": [
+        {
+          "iteration": 1,
+          "provider": "serper-scholar",
+          "query": "research on long video description",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 10,
+          "returned_count": 10,
+          "api_calls": 0,
+          "latency_ms": 0.0,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": true,
+          "skipped": null
+        },
+        {
+          "iteration": 1,
+          "provider": "arxiv",
+          "query": "(all:\"long video description\" OR (all:\"description\" AND all:\"video\") OR (all:\"long\" OR all:\"video\" OR all:\"description\"))",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 20,
+          "returned_count": 20,
+          "api_calls": 0,
+          "latency_ms": 0.0,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": true,
+          "skipped": null
+        },
+        {
+          "iteration": 1,
+          "provider": "openalex",
+          "query": "research on long video description",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 1,
+          "latency_ms": 55.732899985741824,
+          "error": "RuntimeError",
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 1,
+          "provider": "semantic-scholar",
+          "query": "research on long video description",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 20,
+          "returned_count": 20,
+          "api_calls": 0,
+          "latency_ms": 0.0,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": true,
+          "skipped": null
+        },
+        {
+          "iteration": 1,
+          "provider": "pasa-local-corpus",
+          "query": "research on long video description",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 0,
+          "latency_ms": 71902.09649997996,
+          "error": "PermissionError",
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 1,
+          "provider": "tavily",
+          "query": "research on long video description",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 20,
+          "returned_count": 8,
+          "api_calls": 0,
+          "latency_ms": 2.049500006251037,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": true,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "serper-scholar",
+          "query": "studies of video content analysis for long videos 自然语言处理 机器学习 视频数据集 会议/期刊约束",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 0,
+          "latency_ms": 0.0,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": true,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "serper-scholar",
+          "query": "studies of video content analysis for long videos 自然语言处理 机器学习 视频数据集 会议/期刊约束",
+          "queries": [],
+          "offset": 20,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 0,
+          "latency_ms": 0.0,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": true,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "arxiv",
+          "query": "(all:\"video content analysis long videos\" OR (all:\"analysis\" AND all:\"content\") OR (all:\"video\" OR all:\"content\" OR all:\"analysis\" OR all:\"long\" OR all:\"videos\"))",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 20,
+          "returned_count": 20,
+          "api_calls": 0,
+          "latency_ms": 0.0,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": true,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "arxiv",
+          "query": "(all:\"video content analysis long videos\" OR (all:\"analysis\" AND all:\"content\") OR (all:\"video\" OR all:\"content\" OR all:\"analysis\" OR all:\"long\" OR all:\"videos\"))",
+          "queries": [],
+          "offset": 20,
+          "raw_count": 20,
+          "returned_count": 20,
+          "api_calls": 1,
+          "latency_ms": 3560.2327000233345,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "openalex",
+          "query": "studies of video content analysis for long videos 自然语言处理 机器学习 视频数据集 会议/期刊约束",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 1,
+          "latency_ms": 10.989000031258911,
+          "error": "RuntimeError",
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "semantic-scholar",
+          "query": "studies of video content analysis for long videos 自然语言处理 机器学习 视频数据集 会议/期刊约束",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 2,
+          "latency_ms": 11511.056200019084,
+          "error": "ConnectError",
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "pasa-local-corpus",
+          "query": "studies of video content analysis for long videos 自然语言处理 机器学习 视频数据集 会议/期刊约束",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 0,
+          "latency_ms": 72383.29760002671,
+          "error": "PermissionError",
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "pasa-local-corpus",
+          "query": "studies of video content analysis for long videos 自然语言处理 机器学习 视频数据集 会议/期刊约束",
+          "queries": [],
+          "offset": 20,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 0,
+          "latency_ms": 73022.48370001325,
+          "error": "PermissionError",
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "tavily",
+          "query": "studies of video content analysis for long videos 自然语言处理 机器学习 视频数据集 会议/期刊约束",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 20,
+          "returned_count": 5,
+          "api_calls": 0,
+          "latency_ms": 4.029100004117936,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": true,
+          "skipped": null
+        }
+      ],
+      "provider_snapshot_sha256": "3f08d54edb0cd55d67ac90f118005f8e56038018f6b393c1edb9bec13be4ea1f"
+    },
+    {
+      "qid": "RealScholarQuery_17",
+      "query": "Provide papers explaining why the in-context learning performance of LLMs cannot surpass that of supervised fine-tuned small language models in information extraction tasks, such as NER, RE, and EE.",
+      "relevant_count": 9,
+      "returned_count": 10,
+      "matched_titles": [],
+      "metrics": {
+        "5": {
+          "k": 5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ndcg": 0.0,
+          "mrr": 0.0,
+          "hits": 0
+        },
+        "10": {
+          "k": 10,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ndcg": 0.0,
+          "mrr": 0.0,
+          "hits": 0
+        }
+      },
+      "latency_ms": 265260.20689995494,
+      "api_calls": 13,
+      "token_usage": 1719,
+      "error": null,
+      "error_category": null,
+      "asta_official": null,
+      "stage_metrics": {
+        "provider": {
+          "candidate_count": 76,
+          "gold_hits": 0,
+          "candidate_recall": 0.0,
+          "matched_titles": [],
+          "matched_ranks": []
+        },
+        "merged": {
+          "candidate_count": 65,
+          "gold_hits": 0,
+          "candidate_recall": 0.0,
+          "matched_titles": [],
+          "matched_ranks": []
+        },
+        "budget": {
+          "candidate_count": 65,
+          "gold_hits": 0,
+          "candidate_recall": 0.0,
+          "matched_titles": [],
+          "matched_ranks": []
+        },
+        "ranking": {
+          "candidate_count": 65,
+          "gold_hits": 0,
+          "candidate_recall": 0.0,
+          "matched_titles": [],
+          "matched_ranks": []
+        },
+        "final": {
+          "candidate_count": 10,
+          "gold_hits": 0,
+          "candidate_recall": 0.0,
+          "matched_titles": [],
+          "matched_ranks": []
+        }
+      },
+      "first_seen_stage": null,
+      "loss_stage": null,
+      "provider_diagnostics": [
+        {
+          "iteration": 1,
+          "provider": "openalex",
+          "query": "Why do LLMs fail to outperform SLLMs in information extraction tasks like NER, RE, and EE?",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 1,
+          "latency_ms": 47.68979997606948,
+          "error": "RuntimeError",
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 1,
+          "provider": "semantic-scholar",
+          "query": "Why do LLMs fail to outperform SLLMs in information extraction tasks like NER, RE, and EE?",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 2,
+          "latency_ms": 1459.5819999813102,
+          "error": "HTTP429",
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 1,
+          "provider": "serper-scholar",
+          "query": "Why do LLMs fail to outperform SLLMs in information extraction tasks like NER, RE, and EE?",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 10,
+          "returned_count": 10,
+          "api_calls": 1,
+          "latency_ms": 2774.2967000231147,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 1,
+          "provider": "arxiv",
+          "query": "(all:\"LLMs\" OR all:\"SLLMs\" OR all:\"in-context learning\" OR all:\"NER\" OR all:\"outperform information extraction NER RE EE\" OR (all:\"NER\" AND all:\"RE\") OR (all:\"outperform\" OR all:\"information\" OR all:\"extraction\" OR all:\"NER\" OR all:\"RE\"))",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 20,
+          "returned_count": 20,
+          "api_calls": 1,
+          "latency_ms": 6572.165000019595,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 1,
+          "provider": "pasa-local-corpus",
+          "query": "Why do LLMs fail to outperform SLLMs in information extraction tasks like NER, RE, and EE?",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 0,
+          "latency_ms": 71872.52789997729,
+          "error": "PermissionError",
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 1,
+          "provider": "tavily",
+          "query": "Why do LLMs fail to outperform SLLMs in information extraction tasks like NER, RE, and EE?",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 20,
+          "returned_count": 4,
+          "api_calls": 1,
+          "latency_ms": 8068.1537999771535,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "openalex",
+          "query": "Performance limitations of LLMs in NER, RE, and EE compared to SLLMs performance comparison empirical study theoretical analysis NLP conferences/journals",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 1,
+          "latency_ms": 12.947000039275736,
+          "error": "RuntimeError",
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "semantic-scholar",
+          "query": "Performance limitations of LLMs in NER, RE, and EE compared to SLLMs performance comparison empirical study theoretical analysis NLP conferences/journals",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 0,
+          "latency_ms": 13.472600025124848,
+          "error": "CircuitOpenError",
+          "circuit_open": true,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "serper-scholar",
+          "query": "Performance limitations of LLMs in NER, RE, and EE compared to SLLMs performance comparison empirical study theoretical analysis NLP conferences/journals",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 1,
+          "returned_count": 1,
+          "api_calls": 1,
+          "latency_ms": 2546.4766999939457,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "serper-scholar",
+          "query": "Performance limitations of LLMs in NER, RE, and EE compared to SLLMs performance comparison empirical study theoretical analysis NLP conferences/journals",
+          "queries": [],
+          "offset": 20,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 1,
+          "latency_ms": 3282.869999995455,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "arxiv",
+          "query": "(all:\"LLMs\" OR all:\"SLLMs\" OR all:\"in-context learning\" OR all:\"NER\" OR all:\"Performance limitations NER RE EE NLP\" OR (all:\"NER\" AND all:\"NLP\") OR (all:\"Performance\" OR all:\"limitations\" OR all:\"NER\" OR all:\"RE\" OR all:\"EE\"))",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 20,
+          "returned_count": 20,
+          "api_calls": 1,
+          "latency_ms": 2844.553300004918,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "arxiv",
+          "query": "(all:\"LLMs\" OR all:\"SLLMs\" OR all:\"in-context learning\" OR all:\"NER\" OR all:\"Performance limitations NER RE EE NLP\" OR (all:\"NER\" AND all:\"NLP\") OR (all:\"Performance\" OR all:\"limitations\" OR all:\"NER\" OR all:\"RE\" OR all:\"EE\"))",
+          "queries": [],
+          "offset": 20,
+          "raw_count": 20,
+          "returned_count": 20,
+          "api_calls": 1,
+          "latency_ms": 2664.7617999697104,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "pasa-local-corpus",
+          "query": "Performance limitations of LLMs in NER, RE, and EE compared to SLLMs performance comparison empirical study theoretical analysis NLP conferences/journals",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 0,
+          "latency_ms": 72518.270200002,
+          "error": "PermissionError",
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "pasa-local-corpus",
+          "query": "Performance limitations of LLMs in NER, RE, and EE compared to SLLMs performance comparison empirical study theoretical analysis NLP conferences/journals",
+          "queries": [],
+          "offset": 20,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 0,
+          "latency_ms": 72410.38319998188,
+          "error": "PermissionError",
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "tavily",
+          "query": "Performance limitations of LLMs in NER, RE, and EE compared to SLLMs performance comparison empirical study theoretical analysis NLP conferences/journals",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 20,
+          "returned_count": 1,
+          "api_calls": 1,
+          "latency_ms": 8601.570900005754,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        }
+      ],
+      "provider_snapshot_sha256": "701ebb34e3c501104cd23fde663c4226244bf66f96f65fbe79376fd62763e866"
+    },
+    {
+      "qid": "RealScholarQuery_40",
+      "query": "Could you list research that demonstrates the advantages of Quantization-Aware Training (QAT), which can enable the model to learn better representations for low-bit weights?.",
+      "relevant_count": 5,
+      "returned_count": 10,
+      "matched_titles": [
+        "EfficientQAT: Efficient Quantization-Aware Training for Large Language   Models"
+      ],
+      "metrics": {
+        "5": {
+          "k": 5,
+          "precision": 0.2,
+          "recall": 0.2,
+          "f1": 0.20000000000000004,
+          "ndcg": 0.16958010263680806,
+          "mrr": 0.3333333333333333,
+          "hits": 1
+        },
+        "10": {
+          "k": 10,
+          "precision": 0.1,
+          "recall": 0.2,
+          "f1": 0.13333333333333333,
+          "ndcg": 0.16958010263680806,
+          "mrr": 0.3333333333333333,
+          "hits": 1
+        }
+      },
+      "latency_ms": 159766.40150003368,
+      "api_calls": 4,
+      "token_usage": 0,
+      "error": null,
+      "error_category": null,
+      "asta_official": null,
+      "stage_metrics": {
+        "provider": {
+          "candidate_count": 85,
+          "gold_hits": 3,
+          "candidate_recall": 0.6,
+          "matched_titles": [
+            "EfficientQAT: Efficient Quantization-Aware Training for Large Language   Models",
+            "Low-Rank Quantization-Aware Training for LLMs",
+            "LLM-QAT: Data-Free Quantization Aware Training for Large Language Models"
+          ],
+          "matched_ranks": [
+            5,
+            46,
+            74
+          ]
+        },
+        "merged": {
+          "candidate_count": 73,
+          "gold_hits": 3,
+          "candidate_recall": 0.6,
+          "matched_titles": [
+            "EfficientQAT: Efficient Quantization-Aware Training for Large Language   Models",
+            "Low-Rank Quantization-Aware Training for LLMs",
+            "LLM-QAT: Data-Free Quantization Aware Training for Large Language Models"
+          ],
+          "matched_ranks": [
+            5,
+            44,
+            63
+          ]
+        },
+        "budget": {
+          "candidate_count": 73,
+          "gold_hits": 3,
+          "candidate_recall": 0.6,
+          "matched_titles": [
+            "EfficientQAT: Efficient Quantization-Aware Training for Large Language   Models",
+            "Low-Rank Quantization-Aware Training for LLMs",
+            "LLM-QAT: Data-Free Quantization Aware Training for Large Language Models"
+          ],
+          "matched_ranks": [
+            5,
+            44,
+            63
+          ]
+        },
+        "ranking": {
+          "candidate_count": 73,
+          "gold_hits": 3,
+          "candidate_recall": 0.6,
+          "matched_titles": [
+            "EfficientQAT: Efficient Quantization-Aware Training for Large Language   Models",
+            "LLM-QAT: Data-Free Quantization Aware Training for Large Language Models",
+            "Low-Rank Quantization-Aware Training for LLMs"
+          ],
+          "matched_ranks": [
+            3,
+            25,
+            31
+          ]
+        },
+        "final": {
+          "candidate_count": 10,
+          "gold_hits": 1,
+          "candidate_recall": 0.2,
+          "matched_titles": [
+            "EfficientQAT: Efficient Quantization-Aware Training for Large Language   Models"
+          ],
+          "matched_ranks": [
+            3
+          ]
+        }
+      },
+      "first_seen_stage": "provider",
+      "loss_stage": "final",
+      "provider_diagnostics": [
+        {
+          "iteration": 1,
+          "provider": "serper-scholar",
+          "query": "Research on the advantages of Quantization-Aware Training",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 10,
+          "returned_count": 10,
+          "api_calls": 0,
+          "latency_ms": 0.0,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": true,
+          "skipped": null
+        },
+        {
+          "iteration": 1,
+          "provider": "arxiv",
+          "query": "(all:\"Quantization-Aware Training\" OR all:\"model representation\" OR all:\"advantages Quantization-Aware Training\" OR (all:\"Quantization-Aware\" AND all:\"advantages\") OR (all:\"advantages\" OR all:\"Quantization-Aware\" OR all:\"Training\"))",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 20,
+          "returned_count": 20,
+          "api_calls": 0,
+          "latency_ms": 0.0,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": true,
+          "skipped": null
+        },
+        {
+          "iteration": 1,
+          "provider": "openalex",
+          "query": "Research on the advantages of Quantization-Aware Training",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 1,
+          "latency_ms": 12.95060000848025,
+          "error": "RuntimeError",
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 1,
+          "provider": "semantic-scholar",
+          "query": "Research on the advantages of Quantization-Aware Training",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 2,
+          "latency_ms": 6846.316900046077,
+          "error": "HTTP429",
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 1,
+          "provider": "pasa-local-corpus",
+          "query": "Research on the advantages of Quantization-Aware Training",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 0,
+          "latency_ms": 78833.42700003413,
+          "error": "PermissionError",
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 1,
+          "provider": "tavily",
+          "query": "Research on the advantages of Quantization-Aware Training",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 20,
+          "returned_count": 12,
+          "api_calls": 0,
+          "latency_ms": 3.815900010522455,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": true,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "serper-scholar",
+          "query": "Quantization-Aware Training benefits model optimization low-bit weights",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 10,
+          "returned_count": 10,
+          "api_calls": 0,
+          "latency_ms": 0.0,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": true,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "arxiv",
+          "query": "(all:\"Quantization-Aware Training\" OR all:\"model representation\" OR all:\"Quantization-Aware Training benefits optimization low-bit weights\" OR (all:\"Quantization-Aware\" AND all:\"low-bit\") OR (all:\"Quantization-Aware\" OR all:\"Training\" OR all:\"benefits\" OR all:\"optimization\" OR all:\"low-bit\"))",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 20,
+          "returned_count": 20,
+          "api_calls": 0,
+          "latency_ms": 0.0,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": true,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "openalex",
+          "query": "Quantization-Aware Training benefits model optimization low-bit weights",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 1,
+          "latency_ms": 10.062500019557774,
+          "error": "RuntimeError",
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "semantic-scholar",
+          "query": "Quantization-Aware Training benefits model optimization low-bit weights",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 20,
+          "returned_count": 20,
+          "api_calls": 0,
+          "latency_ms": 0.0,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": true,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "pasa-local-corpus",
+          "query": "Quantization-Aware Training benefits model optimization low-bit weights",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 0,
+          "latency_ms": 75804.64699998265,
+          "error": "PermissionError",
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "tavily",
+          "query": "Quantization-Aware Training benefits model optimization low-bit weights",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 20,
+          "returned_count": 2,
+          "api_calls": 0,
+          "latency_ms": 6.398199999239296,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": true,
+          "skipped": null
+        }
+      ],
+      "provider_snapshot_sha256": "758ef8906f92a1d3f9bd804cf1df8d9f239ab3d7246dd0704fde87b248f67800"
+    },
+    {
+      "qid": "RealScholarQuery_47",
+      "query": "How can LLM agents be evaluated and benchmarked for financial tasks? Note that I am referring to agents.",
+      "relevant_count": 4,
+      "returned_count": 10,
+      "matched_titles": [],
+      "metrics": {
+        "5": {
+          "k": 5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ndcg": 0.0,
+          "mrr": 0.0,
+          "hits": 0
+        },
+        "10": {
+          "k": 10,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ndcg": 0.0,
+          "mrr": 0.0,
+          "hits": 0
+        }
+      },
+      "latency_ms": 278278.4673999995,
+      "api_calls": 13,
+      "token_usage": 1523,
+      "error": null,
+      "error_category": null,
+      "asta_official": null,
+      "stage_metrics": {
+        "provider": {
+          "candidate_count": 81,
+          "gold_hits": 0,
+          "candidate_recall": 0.0,
+          "matched_titles": [],
+          "matched_ranks": []
+        },
+        "merged": {
+          "candidate_count": 77,
+          "gold_hits": 0,
+          "candidate_recall": 0.0,
+          "matched_titles": [],
+          "matched_ranks": []
+        },
+        "budget": {
+          "candidate_count": 77,
+          "gold_hits": 0,
+          "candidate_recall": 0.0,
+          "matched_titles": [],
+          "matched_ranks": []
+        },
+        "ranking": {
+          "candidate_count": 77,
+          "gold_hits": 0,
+          "candidate_recall": 0.0,
+          "matched_titles": [],
+          "matched_ranks": []
+        },
+        "final": {
+          "candidate_count": 10,
+          "gold_hits": 0,
+          "candidate_recall": 0.0,
+          "matched_titles": [],
+          "matched_ranks": []
+        }
+      },
+      "first_seen_stage": null,
+      "loss_stage": null,
+      "provider_diagnostics": [
+        {
+          "iteration": 1,
+          "provider": "openalex",
+          "query": "How can LLM agents be evaluated for financial tasks?",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 1,
+          "latency_ms": 25.4288999713026,
+          "error": "RuntimeError",
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 1,
+          "provider": "arxiv",
+          "query": "(all:\"LLM agents\" OR all:\"financial tasks\" OR all:\"evaluation methods\" OR all:\"benchmarking techniques\" OR all:\"LLM agents evaluated financial tasks\" OR (all:\"LLM\" AND all:\"evaluated\") OR (all:\"LLM\" OR all:\"agents\" OR all:\"evaluated\" OR all:\"financial\" OR all:\"tasks\"))",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 20,
+          "returned_count": 20,
+          "api_calls": 1,
+          "latency_ms": 4404.180700017605,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 1,
+          "provider": "serper-scholar",
+          "query": "How can LLM agents be evaluated for financial tasks?",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 10,
+          "returned_count": 10,
+          "api_calls": 1,
+          "latency_ms": 4815.611700003501,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 1,
+          "provider": "semantic-scholar",
+          "query": "How can LLM agents be evaluated for financial tasks?",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 2,
+          "latency_ms": 6872.4225999903865,
+          "error": "HTTP429",
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 1,
+          "provider": "pasa-local-corpus",
+          "query": "How can LLM agents be evaluated for financial tasks?",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 0,
+          "latency_ms": 76740.47439999413,
+          "error": "PermissionError",
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 1,
+          "provider": "tavily",
+          "query": "How can LLM agents be evaluated for financial tasks?",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 20,
+          "returned_count": 4,
+          "api_calls": 1,
+          "latency_ms": 6826.2516999966465,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "openalex",
+          "query": "Benchmarking techniques for LLM agents in financial tasks financial datasets conferences/journals on AI/ML",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 1,
+          "latency_ms": 13.411400024779141,
+          "error": "RuntimeError",
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "semantic-scholar",
+          "query": "Benchmarking techniques for LLM agents in financial tasks financial datasets conferences/journals on AI/ML",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 0,
+          "latency_ms": 13.94340000115335,
+          "error": "CircuitOpenError",
+          "circuit_open": true,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "serper-scholar",
+          "query": "Benchmarking techniques for LLM agents in financial tasks financial datasets conferences/journals on AI/ML",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 4,
+          "returned_count": 4,
+          "api_calls": 1,
+          "latency_ms": 2452.658199996222,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "serper-scholar",
+          "query": "Benchmarking techniques for LLM agents in financial tasks financial datasets conferences/journals on AI/ML",
+          "queries": [],
+          "offset": 20,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 1,
+          "latency_ms": 2282.1289999992587,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "arxiv",
+          "query": "(all:\"LLM agents\" OR all:\"financial tasks\" OR all:\"evaluation methods\" OR all:\"benchmarking techniques\" OR all:\"Benchmarking techniques LLM conferences AI ML\" OR (all:\"LLM\" AND all:\"AI\") OR (all:\"Benchmarking\" OR all:\"techniques\" OR all:\"LLM\" OR all:\"conferences\" OR all:\"AI\"))",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 20,
+          "returned_count": 20,
+          "api_calls": 1,
+          "latency_ms": 3636.9674000306986,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "arxiv",
+          "query": "(all:\"LLM agents\" OR all:\"financial tasks\" OR all:\"evaluation methods\" OR all:\"benchmarking techniques\" OR all:\"Benchmarking techniques LLM conferences AI ML\" OR (all:\"LLM\" AND all:\"AI\") OR (all:\"Benchmarking\" OR all:\"techniques\" OR all:\"LLM\" OR all:\"conferences\" OR all:\"AI\"))",
+          "queries": [],
+          "offset": 20,
+          "raw_count": 20,
+          "returned_count": 20,
+          "api_calls": 1,
+          "latency_ms": 4781.154700031038,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "pasa-local-corpus",
+          "query": "Benchmarking techniques for LLM agents in financial tasks financial datasets conferences/journals on AI/ML",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 0,
+          "latency_ms": 76320.08610002231,
+          "error": "PermissionError",
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "pasa-local-corpus",
+          "query": "Benchmarking techniques for LLM agents in financial tasks financial datasets conferences/journals on AI/ML",
+          "queries": [],
+          "offset": 20,
+          "raw_count": 0,
+          "returned_count": 0,
+          "api_calls": 0,
+          "latency_ms": 80720.75839998433,
+          "error": "PermissionError",
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        },
+        {
+          "iteration": 2,
+          "provider": "tavily",
+          "query": "Benchmarking techniques for LLM agents in financial tasks financial datasets conferences/journals on AI/ML",
+          "queries": [],
+          "offset": 0,
+          "raw_count": 20,
+          "returned_count": 4,
+          "api_calls": 1,
+          "latency_ms": 6458.787199982908,
+          "error": null,
+          "circuit_open": false,
+          "cache_hit": false,
+          "skipped": null
+        }
+      ],
+      "provider_snapshot_sha256": "758ef807640236a285e981771db2ad680771ca5ec3cf52abf4a5cabdb1fea6ec"
+    }
+  ],
+  "successful_queries": 5,
+  "failed_queries": 0,
+  "mean_latency_ms": 236154.08520000055,
+  "p50_latency_ms": 253823.3189000166,
+  "p95_latency_ms": 278278.4673999995,
+  "total_latency_ms": 1180770.4260000028,
+  "total_api_calls": 47,
+  "total_token_usage": 3242,
+  "generated_at": "2026-08-21T04:13:26.041503+00:00",
+  "matching_policy": "arxiv-id-or-pmid-or-doi-or-corpus-id-or-title-one-to-one-v4; ID-first, title fallback; macro-average; failed queries score zero; successful-only view also reported",
+  "asta_official": null,
+  "dataset_sha256": "80b1a263058362f6e0e09b3309be9442bb8a2f54830dd49eeb6d219cf0c817e6",
+  "run_metadata": {
+    "schema_version": "paper-test-report-v2",
+    "dataset_sha256": "80b1a263058362f6e0e09b3309be9442bb8a2f54830dd49eeb6d219cf0c817e6",
+    "config_fingerprint": "3bf2f764f1af26c5e5250a9672b5163c7c85ae838bef94ef9f7e3a2dab75eb3c",
+    "code_commit": null,
+    "code_dirty": null,
+    "fast_mode": true,
+    "configuration": {
+      "dataset": "pasa-real",
+      "sample_limit": 5,
+      "ks": [
+        5,
+        10
+      ],
+      "seed": 42,
+      "use_mock": false,
+      "models": {
+        "bge_m3": {
+          "path": "models/bge-m3-5617a9f6",
+          "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+          "candidate_limit": 120,
+          "max_candidate_limit": 160,
+          "allow_hash_fallback": false
+        },
+        "bge_reranker": {
+          "enabled": true,
+          "path": "models/bge-reranker-v2-m3-953dc6f6",
+          "revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+          "top_n": 80,
+          "required": true
+        }
+      },
+      "retrieval": {
+        "max_iterations": 2,
+        "minimum_evaluation_variants": 2,
+        "max_api_calls": 12,
+        "provider_limit": 40,
+        "local_provider_limit": 100,
+        "local_index_version": "pasa-fts-title-abstract-porter-v3",
+        "local_vector_enabled": false,
+        "local_vector_collection": "pasa_full_corpus_bge_m3",
+        "local_vector_provider_limit": 80,
+        "llm_evolution_enabled": true,
+        "llm_evolution_max_calls": 1,
+        "llm_evolution_prompt_version": "adaptive-query-v1",
+        "semantic_scholar_enabled": true,
+        "provider_cache_enabled": true,
+        "provider_cache_ttl_seconds": 604800
+      },
+      "ranking": {
+        "rrf_k": 60,
+        "cross_rank_weight": 0.65,
+        "facet_rank_weight": 0.15,
+        "head_protect": 3,
+        "candidate_provider_head_fraction": 0.25,
+        "candidate_provider_head_per_source": 5,
+        "candidate_anchor_fraction": 0.15,
+        "candidate_anchor_min_chars": 3,
+        "evidrank_enabled": true,
+        "evidrank_decision_policy": "recall_first",
+        "evidrank_threshold_version": "evidrank-v1-rank-evidence-rules"
+      },
+      "evaluation": {
+        "fast_mode": true,
+        "asta_dataset_revision": "a600dc767f850385f4664772e3ba7a7f8be17d5e"
+      }
+    },
+    "provider_snapshot_sha256": "c9606c771c9b7533f9b702c94eac967dd952297659ca1c0d3cc5299f86b92d87",
+    "provider_cache_mode": "record"
+  },
+  "provider_snapshot_sha256": "c9606c771c9b7533f9b702c94eac967dd952297659ca1c0d3cc5299f86b92d87"
+}

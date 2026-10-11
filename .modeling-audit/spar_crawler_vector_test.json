@@ -1,0 +1,1073 @@
+{
+  "experiment": "SPARBench full crawler-vector candidate-recall",
+  "date": "2026-08-26",
+  "dataset": "D:\\Project\\huawei-paper-search-main\\dataset\\SPAR_Benchmark.jsonl",
+  "queries": 25,
+  "gold_total": 556,
+  "found": {
+    "baseline": 78,
+    "crawler_only": 86,
+    "fused": 93
+  },
+  "recall_pct": {
+    "baseline": 14.028776978417264,
+    "crawler_only": 15.467625899280577,
+    "fused": 16.72661870503597
+  },
+  "elapsed_s": 238.1,
+  "per_query": [
+    {
+      "qid": "SPARBench_1",
+      "question": "Provide me with some top-tier journal papers to expand my ideas on using synthetic data to augment supervised fine-tuning (SFT) while ensuring data quality and diversity, maintaining a balance between",
+      "gold": 10,
+      "gold_arxiv": 7,
+      "queries": [
+        "Use of synthetic data in supervised fine-tuning",
+        "Impact of synthetic data on data quality in supervised fine-tuning",
+        "Survey papers on synthetic data augmentation for supervised fine-tuning",
+        "Data diversity maintenance in synthetic data augmented SFT",
+        "Fine-tuning strategies in synthetic data augmentation for language models"
+      ],
+      "baseline": 2,
+      "crawler_only": 3,
+      "fused": 3,
+      "fused_gold_titles": [
+        "A Survey of Data Synthesis Approaches",
+        "Little Giants: Synthesizing High-Quality Embedding Data at Scale",
+        "On the Diversity of Synthetic Data and its Impact on Training Large Language Models"
+      ]
+    },
+    {
+      "qid": "SPARBench_2",
+      "question": "Show some cutting-edge technological advancements on how to improve the generalization ability of machine learning models across multiple domains.",
+      "gold": 29,
+      "gold_arxiv": 19,
+      "queries": [
+        "Recent developments in improving machine learning model generalization",
+        "Survey papers on enhancing generalization ability of machine learning models",
+        "Innovative techniques in machine learning for improved generalization",
+        "Cutting-edge methods for improving machine learning model generalization",
+        "State-of-the-art technologies in machine learning generalization"
+      ],
+      "baseline": 3,
+      "crawler_only": 4,
+      "fused": 5,
+      "fused_gold_titles": [
+        "Domain Generalization: A Survey",
+        "Generalization in Neural Networks: A Broad Survey",
+        "Generalizing to Unseen Domains: A Survey on Domain Generalization",
+        "Learning to Generalize Unseen Domains via Multi-Source Meta Learning for Text Classification",
+        "Learning to Generalize: Meta-Learning for Domain Generalization"
+      ]
+    },
+    {
+      "qid": "SPARBench_3",
+      "question": "How can deep learning enhance the perception and decision-making accuracy of autonomous driving systems? Please provide a comprehensive analysis with supporting research papers.",
+      "gold": 13,
+      "gold_arxiv": 11,
+      "queries": [
+        "Impact of deep learning on decision-making accuracy in autonomous vehicles",
+        "Role of deep learning in improving perception system of autonomous cars",
+        "Deep learning techniques for enhancing decision making in autonomous driving",
+        "Survey papers on deep learning applications in autonomous driving",
+        "Use of deep learning in object detection and tracking for autonomous vehicles"
+      ],
+      "baseline": 4,
+      "crawler_only": 7,
+      "fused": 7,
+      "fused_gold_titles": [
+        "A Survey of Deep Learning Techniques for Autonomous Driving",
+        "A survey of deep learning techniques for autonomous driving",
+        "Autonomous Driving using Residual Sensor Fusion and Deep Reinforcement Learning",
+        "Beyond One Model Fits All: Ensemble Deep Learning for Autonomous Vehicles",
+        "Deep Reinforcement Learning framework for Autonomous Driving",
+        "Research on the Application of Computer Vision Based on Deep Learning in Autonomous Driving Technology",
+        "Survey of Deep Reinforcement Learning for Motion Planning of Autonomous Vehicles"
+      ]
+    },
+    {
+      "qid": "SPARBench_4",
+      "question": "Provide me with some research papers evaluating the application performance of large-scale language models (LLMs) in the financial sector.",
+      "gold": 7,
+      "gold_arxiv": 7,
+      "queries": [
+        "Application performance of large-scale language models in finance",
+        "Survey papers on LLMs application in finance",
+        "Impact of large-scale language models on financial industry",
+        "Performance evaluation of language models in financial sector",
+        "Evaluation studies of LLMs in financial markets"
+      ],
+      "baseline": 3,
+      "crawler_only": 3,
+      "fused": 3,
+      "fused_gold_titles": [
+        "A Survey on Large Language Models for Critical Societal Domains: Finance, Healthcare, and Law",
+        "Open-FinLLMs: Open Multimodal Large Language Models for Financial Applications",
+        "Revolutionizing Finance with LLMs: An Overview of Applications and Insights"
+      ]
+    },
+    {
+      "qid": "SPARBench_5",
+      "question": "How can machine learning be applied to climate prediction, especially in data-scarce scenarios? What are the cutting-edge methods to improve prediction accuracy? Please explain in detai.",
+      "gold": 12,
+      "gold_arxiv": 10,
+      "queries": [
+        "Machine learning techniques for climate prediction in under-resourced areas",
+        "Survey papers on using machine learning for climate prediction",
+        "Cutting-edge methods in machine learning for climate prediction",
+        "Improving prediction accuracy in climate modeling with machine learning",
+        "Application of machine learning in climate prediction"
+      ],
+      "baseline": 1,
+      "crawler_only": 0,
+      "fused": 1,
+      "fused_gold_titles": [
+        "Data-driven rainfall prediction at a regional scale: a case study with Ghana"
+      ]
+    },
+    {
+      "qid": "SPARBench_6",
+      "question": "Give me some research papers from the past five years on the application of Generative Adversarial Networks (GANs) in speech recognition systems, and summarize how GANs help generate high-quality trai",
+      "gold": 1,
+      "gold_arxiv": 1,
+      "queries": [
+        "Survey papers on application of GANs in speech recognition systems",
+        "Use of GANs to generate synthetic speech data for training speech recognition systems",
+        "Past five years research on GANs in speech recognition",
+        "High-quality training data generation using GANs in speech recognition",
+        "Impact of GANs on the quality of training data in speech recognition"
+      ],
+      "baseline": 0,
+      "crawler_only": 0,
+      "fused": 0,
+      "fused_gold_titles": []
+    },
+    {
+      "qid": "SPARBench_7",
+      "question": "What are the latest approaches to improving few-shot learning methods, especially for handling more complex natural language processing tasks?",
+      "gold": 21,
+      "gold_arxiv": 19,
+      "queries": [
+        "Latest approaches to improve few-shot learning for natural language processing",
+        "Innovative techniques for few-shot learning in language models",
+        "Application of attention mechanisms in few-shot learning for NLP",
+        "Meta-learning in few-shot learning for natural language processing",
+        "Survey papers on improving few-shot learning methods"
+      ],
+      "baseline": 3,
+      "crawler_only": 4,
+      "fused": 4,
+      "fused_gold_titles": [
+        "A Survey on Few-Shot Class-Incremental Learning",
+        "Active Few-Shot Learning with FASL",
+        "Improving the Language Understanding Capabilities of Large Language Models Using Reinforcement Learning",
+        "Language Models are Few-Shot Learners"
+      ]
+    },
+    {
+      "qid": "SPARBench_8",
+      "question": "Provide me with some recent research papers on how multimodal models improve accuracy when combining vision and audio data, along with specific examples.",
+      "gold": 9,
+      "gold_arxiv": 7,
+      "queries": [
+        "Impact of multimodal models on the accuracy of visual and audio data interpretation",
+        "Recent advancements in multimodal models for vision and audio data integration",
+        "Survey papers on multimodal models improving accuracy through vision and audio data combination",
+        "Effects of modality fusion on the improvement of multimodal models",
+        "Multimodal machine learning for video and audio data enhancement"
+      ],
+      "baseline": 0,
+      "crawler_only": 0,
+      "fused": 0,
+      "fused_gold_titles": []
+    },
+    {
+      "qid": "SPARBench_9",
+      "question": "What are some effective reinforcement learning methods to optimize the decision-making process in recommendation systems?",
+      "gold": 11,
+      "gold_arxiv": 10,
+      "queries": [
+        "Application of reinforcement learning in recommendation system optimization",
+        "Reinforcement learning techniques for improving decision making in recommendation systems",
+        "Effective reinforcement learning approaches for recommendation systems",
+        "Latest advancements in reinforcement learning for optimization of recommendation systems",
+        "Survey papers on reinforcement learning methods in recommendation systems"
+      ],
+      "baseline": 7,
+      "crawler_only": 6,
+      "fused": 7,
+      "fused_gold_titles": [
+        "A Survey of Deep Reinforcement Learning in Recommender Systems: A Systematic Review and Future Directions",
+        "A Survey on Reinforcement Learning for Recommender Systems",
+        "Deep Reinforcement Learning for List-wise Recommendations",
+        "On Causally Disentangled State Representation Learning for Reinforcement Learning based Recommender Systems",
+        "ROLeR: Effective Reward Shaping in Offline Reinforcement Learning for Recommender Systems",
+        "Reinforcement Learning-based Recommender Systems with Large Language Models for State Reward and Action Modeling",
+        "Reinforcement learning based recommender systems: A survey"
+      ]
+    },
+    {
+      "qid": "SPARBench_10",
+      "question": "How does deep learning improve robotic decision-making, particularly in autonomous learning under complex environments? For example, in autonomous driving, how should a vehicle make decisions in rainy",
+      "gold": 17,
+      "gold_arxiv": 15,
+      "queries": [
+        "Deep learning techniques for improving robotic decision making",
+        "Impact of deep learning on autonomous vehicle decision-making",
+        "Survey papers on deep learning in robotic decision-making",
+        "Autonomous learning in robotics using deep learning",
+        "Optimization strategies for deep learning in autonomous robotics"
+      ],
+      "baseline": 3,
+      "crawler_only": 3,
+      "fused": 3,
+      "fused_gold_titles": [
+        "A Survey of Deep Learning Applications to Autonomous Vehicle Control",
+        "A survey of deep learning techniques for autonomous driving",
+        "Survey of Deep Reinforcement Learning for Motion Planning of Autonomous Vehicles"
+      ]
+    },
+    {
+      "qid": "SPARBench_11",
+      "question": "Deep learning typically relies on historical data, so how can real-time data processing be optimized? What are the best methods, particularly in the application of network traffic analysis?",
+      "gold": 5,
+      "gold_arxiv": 4,
+      "queries": [
+        "Real-time data processing optimization techniques in AI",
+        "Survey papers on real-time data processing in AI",
+        "Methods for optimizing real-time data processing in network traffic analysis",
+        "Improving real-time processing in deep learning for network traffic analysis",
+        "Deep learning applications in real-time network traffic analysis"
+      ],
+      "baseline": 0,
+      "crawler_only": 1,
+      "fused": 1,
+      "fused_gold_titles": [
+        "CATO: End-to-End Optimization of ML-Based Traffic Analysis Pipelines"
+      ]
+    },
+    {
+      "qid": "SPARBench_12",
+      "question": "How can Graph Neural Networks (GNNs) enhance performance on large-scale image datasets? Please answer from multiple perspectives.",
+      "gold": 5,
+      "gold_arxiv": 5,
+      "queries": [
+        "Survey papers on the application of Graph Neural Networks in image recognition",
+        "Scalability of Graph Neural Networks in handling large-scale image datasets",
+        "Performance enhancement of Graph Neural Networks on large-scale image datasets",
+        "Optimization of Graph Neural Networks for large-scale image datasets",
+        "Use of Graph Neural Networks in image classification tasks"
+      ],
+      "baseline": 0,
+      "crawler_only": 1,
+      "fused": 1,
+      "fused_gold_titles": [
+        "Rethinking Node-wise Propagation for Large-scale Graph Learning"
+      ]
+    },
+    {
+      "qid": "SPARBench_13",
+      "question": "I want to develop an AI application to improve the accuracy of climate models in data-scarce conditions.Provide me with practical and effective methods.",
+      "gold": 9,
+      "gold_arxiv": 8,
+      "queries": [
+        "Effective methods to improve climate model accuracy in data-scarce regions",
+        "AI techniques for enhancing accuracy of climate models in data-poor areas",
+        "Use of AI in improving climate model accuracy under data constraints",
+        "Practical approaches for enhancing climate models using artificial intelligence in data-scarce situations",
+        "Effective practices in developing AI applications for sparse climate data"
+      ],
+      "baseline": 2,
+      "crawler_only": 2,
+      "fused": 2,
+      "fused_gold_titles": [
+        "AI for Extreme Event Modeling and Understanding: Methodologies and Challenges",
+        "Data Augmentation in Earth Observation: A Diffusion Model Approach"
+      ]
+    },
+    {
+      "qid": "SPARBench_14",
+      "question": "How can reinforcement learning improve decision accuracy in intelligent medical diagnosis systems? Since patients have different physiques, symptoms, and even genetic diseases, these factors must be c",
+      "gold": 8,
+      "gold_arxiv": 3,
+      "queries": [
+        "Use of reinforcement learning in diagnostic decision support systems",
+        "Impact of reinforcement learning on accuracy of medical diagnosis systems",
+        "Personalized treatment recommendation using reinforcement learning in intelligent medical diagnosis",
+        "Survey papers on reinforcement learning applications in medical diagnosis",
+        "Reinforcement learning techniques in intelligent medical diagnosis"
+      ],
+      "baseline": 1,
+      "crawler_only": 1,
+      "fused": 1,
+      "fused_gold_titles": [
+        "Deep Reinforcement Learning for Clinical Decision Support: A Brief Survey"
+      ]
+    },
+    {
+      "qid": "SPARBench_15",
+      "question": "I am conducting scientific research—tell me how to use large models to generate automated literature reviews.",
+      "gold": 9,
+      "gold_arxiv": 8,
+      "queries": [
+        "Use of AI in automated literature review generation",
+        "Survey papers on using large language models for automated literature reviews",
+        "Large model techniques for literature review automation",
+        "Role of big data models in generating literature reviews",
+        "Research on abstract-based approaches for automated literature review using large language models"
+      ],
+      "baseline": 4,
+      "crawler_only": 4,
+      "fused": 4,
+      "fused_gold_titles": [
+        "Artificial intelligence to automate the systematic review of scientific literature",
+        "Automated Review Generation Method Based on Large Language Models",
+        "Automating Research Synthesis with Domain-Specific Large Language Model Fine-Tuning",
+        "LLAssist: Simple Tools for Automating Literature Review Using Large Language Models"
+      ]
+    },
+    {
+      "qid": "SPARBench_16",
+      "question": "Running computations on large-scale datasets requires significant GPU resources. Are there any efficient algorithms to address computational resource issues? Are there any research papers on this topi",
+      "gold": 16,
+      "gold_arxiv": 14,
+      "queries": [
+        "Optimization of computational resources in large-scale data processing",
+        "Efficient algorithms for large-scale dataset computations",
+        "Survey papers on computational resource efficiency in large-scale data processing",
+        "Research on algorithms for efficient GPU utilization",
+        "Papers on reducing GPU resource requirements in big data computation"
+      ],
+      "baseline": 3,
+      "crawler_only": 2,
+      "fused": 3,
+      "fused_gold_titles": [
+        "BANG: Billion-Scale Approximate Nearest Neighbor Search using a Single GPU",
+        "Communication-Efficient Large-Scale Distributed Deep Learning: A Comprehensive Survey",
+        "Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM"
+      ]
+    },
+    {
+      "qid": "SPARBench_17",
+      "question": "How can quantum error correction techniques be optimized on current NISQ (Noisy Intermediate-Scale Quantum) computers to improve quantum algorithm efficiency? What are the latest methods proposed in t",
+      "gold": 14,
+      "gold_arxiv": 9,
+      "queries": [
+        "Optimization of quantum error correction techniques on NISQ computers",
+        "Latest methods for optimizing quantum error correction on NISQ machines",
+        "Improving quantum algorithm efficiency with error correction techniques",
+        "Quantum error correction techniques for Noisy Intermediate-Scale Quantum computers",
+        "Survey papers on optimizing quantum error correction in NISQ era"
+      ],
+      "baseline": 0,
+      "crawler_only": 0,
+      "fused": 0,
+      "fused_gold_titles": []
+    },
+    {
+      "qid": "SPARBench_18",
+      "question": "What recent advancements have been made in cross-modal learning models to enhance the effectiveness of vision and text generation?",
+      "gold": 12,
+      "gold_arxiv": 11,
+      "queries": [
+        "Application of large language models in cross-modal learning for vision and text generation",
+        "Innovative techniques in cross-modal learning for vision and text generation",
+        "Recent advancements in cross-modal learning models",
+        "Impact of recent advancements in cross-modal learning on vision and text generation",
+        "Survey papers on cross-modal learning models"
+      ],
+      "baseline": 1,
+      "crawler_only": 1,
+      "fused": 2,
+      "fused_gold_titles": [
+        "Croc: Pretraining Large Multimodal Models with Cross-Modal Comprehension",
+        "Visual In-Context Learning for Large Vision-Language Models"
+      ]
+    },
+    {
+      "qid": "SPARBench_19",
+      "question": "How can noise robustness in image recognition be improved? Provide a multi-angle analysis with research papers, preferably from top-tier journals and conferences.",
+      "gold": 14,
+      "gold_arxiv": 13,
+      "queries": [
+        "Research on improving noise robustness in image recognition",
+        "Survey papers on noise robustness in image recognition",
+        "Top-tier journals on image recognition noise robustness",
+        "Image recognition noise robustness improvement techniques",
+        "Papers on robust training methods for noise robustness in image recognition"
+      ],
+      "baseline": 1,
+      "crawler_only": 2,
+      "fused": 2,
+      "fused_gold_titles": [
+        "A Comprehensive Study on Robustness of Image Classification Models: Benchmarking and Rethinking",
+        "A Comprehensive Study on the Robustness of Image Classification and Object Detection in Remote Sensing: Surveying and Benchmarking"
+      ]
+    },
+    {
+      "qid": "SPARBench_20",
+      "question": "How can the performance of multi-task learning models be improved, especially in complex applications? For example, in developing a translation software, I want it not only to translate languages but ",
+      "gold": 5,
+      "gold_arxiv": 3,
+      "queries": [
+        "Survey papers on improving performance of multi-task learning models",
+        "Ways to enhance multi-task learning model efficiency in complex applications",
+        "Techniques for improving multi-task learning in machine translation software",
+        "Advanced optimization techniques for multi-task learning models",
+        "Application of reinforcement learning in improving multi-task learning models"
+      ],
+      "baseline": 0,
+      "crawler_only": 1,
+      "fused": 1,
+      "fused_gold_titles": [
+        "A Survey on Multi-Task Learning"
+      ]
+    },
+    {
+      "qid": "SPARBench_21",
+      "question": "How can self-supervised learning improve natural language processing tasks without a large amount of labeled data? If we only have some unlabeled data, can performance still be improved?",
+      "gold": 11,
+      "gold_arxiv": 8,
+      "queries": [
+        "Survey papers on self-supervised learning in natural language processing",
+        "Impact of self-supervised learning on NLP with less labeled data",
+        "Improving NLP tasks with self-supervised learning without labeled data",
+        "Application of self-supervised learning in natural language processing",
+        "Performance improvement in NLP tasks through self-supervised learning"
+      ],
+      "baseline": 2,
+      "crawler_only": 3,
+      "fused": 3,
+      "fused_gold_titles": [
+        "A Survey on Self-supervised Learning: Algorithms, Applications, and Future Trends",
+        "Diverse Distributions of Self-Supervised Tasks for Meta-Learning in NLP",
+        "Rethinking Semi-supervised Learning with Language Models"
+      ]
+    },
+    {
+      "qid": "SPARBench_22",
+      "question": "Can large-scale language models overcome language barriers in multilingual tasks? Are there potential anomalies? What methods can address this issue? Are there any research papers on this?",
+      "gold": 11,
+      "gold_arxiv": 6,
+      "queries": [
+        "Challenges in the deployment of large-scale language models for cross-lingual information retrieval",
+        "Survey papers on overcoming language barriers with large-scale language models",
+        "Anomalies in large-scale language models operating in multiple languages",
+        "Methods to address language barriers in AI language models",
+        "Impact of language alignment on the performance of large-scale language models in translation tasks"
+      ],
+      "baseline": 3,
+      "crawler_only": 1,
+      "fused": 3,
+      "fused_gold_titles": [
+        "A Survey on Large Language Models with Multilingualism: Recent Advances and New Frontiers",
+        "A Survey on Multilingual Large Language Models: Corpora, Alignment, and Bias",
+        "Breaking Language Barriers in Multilingual Mathematical Reasoning: Insights and Observations"
+      ]
+    },
+    {
+      "qid": "SPARBench_23",
+      "question": "How can natural language generation improve dialogue systems while enhancing contextual understanding? From what aspects can we approach this problem?",
+      "gold": 10,
+      "gold_arxiv": 4,
+      "queries": [
+        "Role of natural language generation in enhancing dialogue systems",
+        "Survey papers on improving dialogue systems through natural language generation",
+        "Contextual understanding in dialogue systems through natural language generation",
+        "Aspects to improve dialogue systems using natural language generation",
+        "Impact of natural language generation on contextual understanding in dialogue systems"
+      ],
+      "baseline": 4,
+      "crawler_only": 5,
+      "fused": 5,
+      "fused_gold_titles": [
+        "A Context-aware Natural Language Generator for Dialogue Systems",
+        "A Survey of Natural Language Generation Techniques with a Focus on Dialogue Systems - Past, Present and Future Directions",
+        "A Unified Framework for Slot based Response Generation in a Multimodal Dialogue System",
+        "Enhancing Contextual Understanding in Large Language Models through Contrastive Decoding",
+        "Semantically Conditioned LSTM-based Natural Language Generation for Spoken Dialogue Systems"
+      ]
+    },
+    {
+      "qid": "SPARBench_24",
+      "question": "How can deep learning inference speed in computer vision be optimized? Provide a multi-angle analysis.",
+      "gold": 9,
+      "gold_arxiv": 7,
+      "queries": [
+        "Optimization of deep learning inference speed in computer vision",
+        "Deep learning model compression for efficient computer vision",
+        "Fusion of hardware and algorithm for optimization of deep learning inference in computer vision",
+        "Inference acceleration in deep learning for computer vision",
+        "Advanced techniques for optimizing deep learning inference speed in computer vision"
+      ],
+      "baseline": 2,
+      "crawler_only": 2,
+      "fused": 2,
+      "fused_gold_titles": [
+        "A Survey of Methods for Low-Power Deep Learning and Computer Vision",
+        "Computation-efficient Deep Learning for Computer Vision: A Survey"
+      ]
+    },
+    {
+      "qid": "SPARBench_25",
+      "question": "How can AI methods improve sentiment analysis model accuracy? For instance, \"How is Xiaoming?\" might have completely different meanings depending on the context",
+      "gold": 18,
+      "gold_arxiv": 6,
+      "queries": [
+        "Contextual understanding in AI for improving sentiment analysis",
+        "Advanced AI techniques for sentiment analysis",
+        "Survey papers on improving sentiment analysis model accuracy",
+        "Applications of NLP in sentiment analysis for enhancing accuracy",
+        "Xiaoming's sentiment analysis: context-based approach"
+      ],
+      "baseline": 1,
+      "crawler_only": 1,
+      "fused": 1,
+      "fused_gold_titles": [
+        "Sentiment Analysis with Contextual Embeddings and Self-Attention"
+      ]
+    },
+    {
+      "qid": "SPARBench_26",
+      "question": "How can deep learning optimize spam detection system performance? Expand on possible methods.",
+      "gold": 13,
+      "gold_arxiv": 7,
+      "queries": [
+        "Deep learning techniques for improving spam detection",
+        "Application of deep learning in anti-spam systems",
+        "Survey papers on optimizing spam detection systems using deep learning",
+        "Role of deep learning in enhancing spam filtering efficiency",
+        "Use of deep learning in content-based spam detection"
+      ],
+      "baseline": 2,
+      "crawler_only": 2,
+      "fused": 2,
+      "fused_gold_titles": [
+        "Deep convolutional forest: a dynamic deep ensemble approach for spam detection in text",
+        "Spam Review Detection Using Deep Learning"
+      ]
+    },
+    {
+      "qid": "SPARBench_27",
+      "question": "How does multimodal learning handle cross-domain tasks, particularly in medical image analysis applications?",
+      "gold": 18,
+      "gold_arxiv": 12,
+      "queries": [
+        "Survey papers on multimodal learning in medical imaging",
+        "Application of multimodal learning in cross-domain medical imaging",
+        "Transfer learning in multimodal medical image analysis",
+        "Multimodal learning techniques for cross-domain tasks in healthcare",
+        "Use of multimodal learning in diverse domains of medical imaging"
+      ],
+      "baseline": 4,
+      "crawler_only": 5,
+      "fused": 5,
+      "fused_gold_titles": [
+        "A Systematic Review of Intermediate Fusion in Multimodal Deep Learning for Biomedical Applications",
+        "A review of deep learning-based information fusion techniques for multimodal medical image classification",
+        "Enhancing Multimodal Medical Image Classification using Cross-Graph Modal Contrastive Learning",
+        "Multi-modal Cross-domain Self-supervised Pre-training for fMRI and EEG Fusion",
+        "Multi-modal Vision Pre-training for Medical Image Analysis"
+      ]
+    },
+    {
+      "qid": "SPARBench_28",
+      "question": "Provide me with research papers from the past five years on how reinforcement learning optimizes long-term rewards in complex decision-making systems.",
+      "gold": 9,
+      "gold_arxiv": 3,
+      "queries": [
+        "Survey papers on reinforcement learning and long-term rewards optimization",
+        "Advancements in long-term reward optimization in reinforcement learning",
+        "Application of reinforcement learning in complex decision-making systems",
+        "Research on optimizing long-term rewards in decision-making systems using reinforcement learning",
+        "Studies on reinforcement learning for complex decision-making optimization"
+      ],
+      "baseline": 0,
+      "crawler_only": 0,
+      "fused": 0,
+      "fused_gold_titles": []
+    },
+    {
+      "qid": "SPARBench_29",
+      "question": "How can large-scale language models improve automated legal text analysis systems to minimize human intervention?",
+      "gold": 8,
+      "gold_arxiv": 6,
+      "queries": [
+        "Use of large-scale language models in automated legal text analysis",
+        "Impact of large-scale language models on automated legal text analysis",
+        "Survey papers on improving automated legal text analysis with large-scale language models",
+        "Application of large-scale language models in legal text processing",
+        "Minimizing human intervention in legal text analysis through AI"
+      ],
+      "baseline": 2,
+      "crawler_only": 2,
+      "fused": 2,
+      "fused_gold_titles": [
+        "Exploring the Nexus of Large Language Models and Legal Systems: A Short Survey",
+        "Large Language Models in Law: A Survey"
+      ]
+    },
+    {
+      "qid": "SPARBench_30",
+      "question": "How can deep neural networks enhance real-time facial recognition performance while reducing processing time? If a person is partially occluded, such as wearing a mask, how can the system still recogn",
+      "gold": 14,
+      "gold_arxiv": 11,
+      "queries": [
+        "Survey papers on enhancing facial recognition performance with deep neural networks",
+        "Partial occlusion handling in facial recognition systems using deep neural networks",
+        "Real-time facial recognition using deep neural networks",
+        "Efficiency of deep neural networks in real-time facial recognition",
+        "Advanced techniques in deep learning for real-time facial recognition"
+      ],
+      "baseline": 1,
+      "crawler_only": 1,
+      "fused": 1,
+      "fused_gold_titles": [
+        "Efficient Masked Face Recognition Method during the COVID-19 Pandemic"
+      ]
+    },
+    {
+      "qid": "SPARBench_31",
+      "question": "How can the training efficiency of image classification models be improved on large-scale datasets?",
+      "gold": 10,
+      "gold_arxiv": 9,
+      "queries": [
+        "Application of mixup augmentation in improving image classification model training efficiency on large-scale datasets",
+        "Efficient training methods for image classification on big datasets",
+        "Optimization of image classification models on large-scale datasets",
+        "Use of hardware accelerators like TPUs for improving image classification model training efficiency on large-scale datasets",
+        "Survey papers on improving training efficiency of image classification models"
+      ],
+      "baseline": 0,
+      "crawler_only": 0,
+      "fused": 0,
+      "fused_gold_titles": []
+    },
+    {
+      "qid": "SPARBench_32",
+      "question": "How is reinforcement learning applied in financial markets, particularly in automated trading systems? What related research exists?",
+      "gold": 8,
+      "gold_arxiv": 8,
+      "queries": [
+        "Application of reinforcement learning in automated trading systems",
+        "Survey papers on reinforcement learning in financial markets",
+        "Reinforcement learning techniques in high-frequency trading",
+        "Use of reinforcement learning in algorithmic trading",
+        "Automated trading systems enhanced by reinforcement learning"
+      ],
+      "baseline": 4,
+      "crawler_only": 4,
+      "fused": 4,
+      "fused_gold_titles": [
+        "An Application of Deep Reinforcement Learning to Algorithmic Trading",
+        "Deep Reinforcement Learning in Quantitative Algorithmic Trading: A Review",
+        "Reinforcement Learning for Quantitative Trading",
+        "The Evolution of Reinforcement Learning in Quantitative Finance: A Survey"
+      ]
+    },
+    {
+      "qid": "SPARBench_33",
+      "question": "What are the latest methods for enhancing the clarity and realism of image generation models?",
+      "gold": 5,
+      "gold_arxiv": 4,
+      "queries": [
+        "Latest techniques for enhancing realism in image generation models",
+        "Optimization methods for generative diffusion models in image synthesis",
+        "Text-to-image synthesis advancements for clarity and realism in image generation",
+        "Latest research on image clarity enhancement in generative models",
+        "Methods for enhancing resolution of image generation models"
+      ],
+      "baseline": 1,
+      "crawler_only": 1,
+      "fused": 1,
+      "fused_gold_titles": [
+        "A Survey on Super Resolution for video Enhancement Using GAN"
+      ]
+    },
+    {
+      "qid": "SPARBench_34",
+      "question": "Provide research papers on how natural language processing improves accuracy and fluency in machine translation.",
+      "gold": 10,
+      "gold_arxiv": 8,
+      "queries": [
+        "Impact of natural language processing on machine translation accuracy",
+        "Survey papers on natural language processing techniques in machine translation",
+        "Role of NLP in enhancing fluency of machine translation",
+        "Advancements in machine translation accuracy through natural language processing",
+        "Application of NLP in machine translation for non-Indo-European languages"
+      ],
+      "baseline": 1,
+      "crawler_only": 1,
+      "fused": 1,
+      "fused_gold_titles": [
+        "Prediction of Translation Techniques for the Translation Process"
+      ]
+    },
+    {
+      "qid": "SPARBench_35",
+      "question": "Search for all research papers on the application of machine learning in large-scale social network data analysis and summarize the different types of methods and implementations.",
+      "gold": 10,
+      "gold_arxiv": 6,
+      "queries": [
+        "Survey papers on machine learning applications in large-scale social network data analysis",
+        "Research papers on large-scale social network data analysis using machine learning",
+        "Machine learning techniques for analyzing big social network data",
+        "Application of machine learning in social network data analysis research papers",
+        "Different methods for machine learning in large scale social networks"
+      ],
+      "baseline": 0,
+      "crawler_only": 0,
+      "fused": 0,
+      "fused_gold_titles": []
+    },
+    {
+      "qid": "SPARBench_36",
+      "question": "What breakthrough advancements have been made in lung cancer research? Present the latest developments and challenges in treatment.",
+      "gold": 11,
+      "gold_arxiv": 2,
+      "queries": [
+        "Innovative treatments for lung cancer",
+        "Breakthroughs in lung cancer research papers",
+        "Latest developments in lung cancer treatment",
+        "Immunotherapy advances in non-small cell lung cancer treatment",
+        "Targeted therapy in lung cancer research"
+      ],
+      "baseline": 1,
+      "crawler_only": 1,
+      "fused": 1,
+      "fused_gold_titles": [
+        "Medical AI for Early Detection of Lung Cancer: A Survey"
+      ]
+    },
+    {
+      "qid": "SPARBench_37",
+      "question": "How is artificial intelligence applied in medical imaging diagnostics, particularly in tumor detection? How can labor costs be reduced while increasing accuracy? Are there research papers on this topi",
+      "gold": 22,
+      "gold_arxiv": 8,
+      "queries": [
+        "Use of AI in radiology for tumor detection",
+        "Artificial intelligence in medical imaging diagnostics papers",
+        "Survey papers on application of artificial intelligence in tumor detection",
+        "Impact of AI on accuracy of tumor detection in medical imaging",
+        "AI techniques for improving efficiency in medical imaging diagnosis"
+      ],
+      "baseline": 3,
+      "crawler_only": 3,
+      "fused": 3,
+      "fused_gold_titles": [
+        "Breast Cancer Diagnosis: A Comprehensive Exploration of Explainable Artificial Intelligence (XAI) Techniques",
+        "Detecting Brain Tumors through Multimodal Neural Networks",
+        "Medical AI for Early Detection of Lung Cancer: A Survey"
+      ]
+    },
+    {
+      "qid": "SPARBench_38",
+      "question": "What improvements are needed in vaccine development efficiency to respond to emerging infectious diseases? Provide a multi-angle analysis.",
+      "gold": 5,
+      "gold_arxiv": 3,
+      "queries": [
+        "Emerging technologies for improving vaccine development efficiency",
+        "Application of artificial intelligence in accelerating vaccine development",
+        "Strengthening global surveillance systems for faster vaccine response",
+        "Survey papers on improving vaccine development efficiency",
+        "Research on rapid and scalable manufacturing platforms for vaccine production"
+      ],
+      "baseline": 0,
+      "crawler_only": 0,
+      "fused": 0,
+      "fused_gold_titles": []
+    },
+    {
+      "qid": "SPARBench_39",
+      "question": "In the precision medicine management of heart failure patients, how does NT-proBNP compare with high-sensitivity C-reactive protein (hs-CRP) in predicting the risk of acute heart failure deterioration",
+      "gold": 3,
+      "gold_arxiv": 0,
+      "queries": [
+        "Comparison study of NT-proBNP and hs-CRP in predicting acute heart failure",
+        "Use of high-sensitivity C-reactive protein in precision medicine for heart failure",
+        "Survey papers on precision medicine management of heart failure using NT-proBNP",
+        "Predictive risk factors for acute heart failure deterioration in precision medicine",
+        "Research papers comparing NT-proBNP and hs-CRP in heart failure management"
+      ],
+      "baseline": 0,
+      "crawler_only": 0,
+      "fused": 0,
+      "fused_gold_titles": []
+    },
+    {
+      "qid": "SPARBench_40",
+      "question": "Provide me with the latest research papers on breakthroughs in AI-assisted cancer drug treatments.",
+      "gold": 11,
+      "gold_arxiv": 3,
+      "queries": [
+        "AI models predicting cancer drug response",
+        "Survey papers on AI in cancer drug treatment",
+        "Recent advancements in AI-assisted cancer therapy",
+        "Machine learning in precision oncology for drug discovery",
+        "Use of AI in targetting drugs for cancer treatment"
+      ],
+      "baseline": 1,
+      "crawler_only": 1,
+      "fused": 1,
+      "fused_gold_titles": [
+        "Deep learning methods for drug response prediction in cancer: predominant and emerging trends"
+      ]
+    },
+    {
+      "qid": "SPARBench_41",
+      "question": "What are the potentials and ethical challenges of gene editing technologies (e.g., CRISPR) in treating genetic diseases? Provide specific explanations and recent research progress.",
+      "gold": 10,
+      "gold_arxiv": 1,
+      "queries": [
+        "Ethical implications of gene editing in genetic disease treatment",
+        "CRISPR technology in genetic disease treatment: recent advances",
+        "Survey paper on gene editing technologies and genetic diseases",
+        "Potential benefits of gene editing in treating genetic disorders",
+        "Ethical challenges in the application of gene editing technologies for genetic diseases"
+      ],
+      "baseline": 1,
+      "crawler_only": 1,
+      "fused": 1,
+      "fused_gold_titles": [
+        "Gene and RNA Editing: Methods, Enabling Technologies, Applications, and Future Directions"
+      ]
+    },
+    {
+      "qid": "SPARBench_42",
+      "question": "In personalized treatment for type 2 diabetes, does the combination of GLP-1 receptor agonists (e.g., Liraglutide) and SGLT2 inhibitors (e.g., Dapagliflozin) significantly reduce the risk of cardiovas",
+      "gold": 5,
+      "gold_arxiv": 0,
+      "queries": [
+        "Effects of combining GLP-1 receptor agonists and SGLT2 inhibitors on cardiovascular health in type 2 diabetes",
+        "Survey papers on the use of GLP-1 receptor agonists and SGLT2 inhibitors in personalized treatment for type 2 diabetes",
+        "Risk reduction of cardiovascular events with GLP-1 and SGLT2 inhibitor combination therapy in type 2 diabetes",
+        "Personalized treatment for type 2 diabetes: GLP-1 receptor agonists and SGLT2 inhibitors",
+        "Studies on reducing cardiovascular risk in type 2 diabetes with GLP-1 receptor agonists and SGLT2 inhibitors"
+      ],
+      "baseline": 0,
+      "crawler_only": 0,
+      "fused": 0,
+      "fused_gold_titles": []
+    },
+    {
+      "qid": "SPARBench_43",
+      "question": "Biomarkers play a significant role in the early detection of Alzheimer’s disease. Which research papers discuss this topic, and what methods do they explore? Summarize key findings.",
+      "gold": 16,
+      "gold_arxiv": 4,
+      "queries": [
+        "Research on biomarkers for early detection of Alzheimer’s disease",
+        "Alzheimer’s disease prediction using neuroimaging biomarkers: a systematic review and meta-analysis",
+        "Survey papers on the role of biomarkers in Alzheimer’s disease detection",
+        "Methods exploration in Alzheimer’s disease biomarker studies",
+        "Early detection of Alzheimer’s disease through biomarkers"
+      ],
+      "baseline": 2,
+      "crawler_only": 2,
+      "fused": 2,
+      "fused_gold_titles": [
+        "Multimodal Identification of Alzheimer's Disease: A Review",
+        "Speech as a Biomarker for Disease Detection"
+      ]
+    },
+    {
+      "qid": "SPARBench_44",
+      "question": "Antibiotics are commonly used in medical treatments, but antibiotic resistance remains an unsolved problem. What are the latest research advancements? Provide journal references, particularly addressi",
+      "gold": 13,
+      "gold_arxiv": 1,
+      "queries": [
+        "Latest research on antibiotic resistance solutions",
+        "Innovative strategies in antibiotic drug development",
+        "Survey papers on antibiotic resistance and drug development",
+        "Research on new classes of antibiotics",
+        "Challenges in antibiotic drug development research papers"
+      ],
+      "baseline": 0,
+      "crawler_only": 0,
+      "fused": 0,
+      "fused_gold_titles": []
+    },
+    {
+      "qid": "SPARBench_45",
+      "question": "Provide all relevant research papers on efficacy evaluation and challenges in cancer immunotherapy, including breakthroughs in clinical trial design.",
+      "gold": 17,
+      "gold_arxiv": 3,
+      "queries": [
+        "Survey papers on efficacy evaluation of cancer immunotherapy",
+        "Evaluation methods for cancer immunotherapy",
+        "Challenges in cancer immunotherapy implementation",
+        "Breakthroughs in clinical trial design for cancer immunotherapy",
+        "Efficacy evaluation in cancer immunotherapy research papers"
+      ],
+      "baseline": 0,
+      "crawler_only": 0,
+      "fused": 0,
+      "fused_gold_titles": []
+    },
+    {
+      "qid": "SPARBench_46",
+      "question": "How do tau protein and β-amyloid (Aβ) concentration changes in cerebrospinal fluid impact the prediction of Alzheimer's disease progression in early diagnosis? Provide related research papers and stud",
+      "gold": 7,
+      "gold_arxiv": 3,
+      "queries": [
+        "Impact of tau protein concentration changes on early Alzheimer's diagnosis",
+        "Survey papers on the role of beta-amyloid in early Alzheimer's diagnosis",
+        "Research on using ratios of tau species in cerebrospinal fluid for early Alzheimer's diagnosis",
+        "Tau protein and β-amyloid concentration changes in predicting Alzheimer's progression",
+        "Study designs for predicting Alzheimer's progression through tau protein analysis"
+      ],
+      "baseline": 1,
+      "crawler_only": 1,
+      "fused": 1,
+      "fused_gold_titles": [
+        "Exploring tau protein and amyloid-beta propagation: a sensitivity analysis of mathematical models based on biological data"
+      ]
+    },
+    {
+      "qid": "SPARBench_47",
+      "question": "How does genomics drive personalized medicine, especially in cancer treatment? Provide research papers from the past five years.",
+      "gold": 16,
+      "gold_arxiv": 7,
+      "queries": [
+        "Impact of genomics on personalized cancer treatment",
+        "Role of genomics in personalized medicine for cancer",
+        "Survey papers on genomics and personalized medicine in cancer treatment",
+        "Advancements in precision oncology enabled by genomics",
+        "Use of genomics in tailoring cancer treatments"
+      ],
+      "baseline": 4,
+      "crawler_only": 4,
+      "fused": 4,
+      "fused_gold_titles": [
+        "Advancing Gene Selection in Oncology: A Fusion of Deep Learning and Sparsity for Precision Gene Selection",
+        "Learning Personalized Treatment Decisions in Precision Medicine: Disentangling Treatment Assignment Bias in Counterfactual Outcome Prediction and Biomarker Identification",
+        "Personalised Drug Identifier for Cancer Treatment with Transformers using Auxiliary Information",
+        "Precision Cancer Classification and Biomarker Identification from mRNA Gene Expression via Dimensionality Reduction and Explainable AI"
+      ]
+    },
+    {
+      "qid": "SPARBench_48",
+      "question": "How can personalized immunotherapy be optimized for cancer treatment based on different patient conditions? Can artificial intelligence be integrated into this process?",
+      "gold": 11,
+      "gold_arxiv": 3,
+      "queries": [
+        "Use of artificial intelligence in optimizing personalized immunotherapy for cancer",
+        "Role of machine learning in optimizing cancer immunotherapy",
+        "AI integration in personalized immunotherapy for cancer treatment optimization",
+        "Adaptive treatment strategies in personalized cancer immunotherapy using AI",
+        "Different patient conditions affecting personalized immunotherapy outcomes"
+      ],
+      "baseline": 0,
+      "crawler_only": 0,
+      "fused": 0,
+      "fused_gold_titles": []
+    },
+    {
+      "qid": "SPARBench_49",
+      "question": "Provide me with the latest research papers on the influence of the microbiome on the human immune system, particularly its role in disease prevention. Summarize and categorize key insights.",
+      "gold": 10,
+      "gold_arxiv": 1,
+      "queries": [
+        "Role of the microbiome in preventing diseases",
+        "Latest research on microbiome influencing human immunity",
+        "Impact of gut microbiota on human health and disease prevention",
+        "Probiotics and their role in modulating the human immune system",
+        "Survey papers on the influence of microbiome on human health"
+      ],
+      "baseline": 0,
+      "crawler_only": 0,
+      "fused": 0,
+      "fused_gold_titles": []
+    },
+    {
+      "qid": "SPARBench_50",
+      "question": "What are the ethical and safety challenges of CRISPR/Cas9 gene-editing technology in treating inherited blood disorders (e.g., sickle cell anemia and β-thalassemia)? Summarize the latest solutions and",
+      "gold": 8,
+      "gold_arxiv": 0,
+      "queries": [
+        "Ethical implications of using CRISPR/Cas9 in treating inherited blood disorders",
+        "Safety concerns with CRISPR/Cas9 in treating blood disorders",
+        "Regulatory challenges in CRISPR/Cas9 gene editing for inherited blood disorders",
+        "Survey papers on ethical issues in CRISPR/Cas9 gene editing for blood disorders",
+        "Latest solutions for challenges in CRISPR/Cas9 gene-editing for inherited blood disorders"
+      ],
+      "baseline": 0,
+      "crawler_only": 0,
+      "fused": 0,
+      "fused_gold_titles": []
+    }
+  ],
+  "note": "gold_total = distinct gold answers (title-key OR arxiv-id match). Corpus ceiling: only 201/317 arXiv-identified gold papers are in the local 568k corpus, so absolute recall is capped well below 100%.",
+  "analysis": {
+    "gold_total": 556,
+    "coverable_arxiv_in_corpus": 212,
+    "coverable_pct": 38.1,
+    "baseline_found": 78,
+    "baseline_on_coverable_pct": 36.8,
+    "fused_found": 93,
+    "fused_on_coverable_pct": 43.9,
+    "crawler_gain_queries": 12,
+    "crawler_gain_detail": [
+      {
+        "qid": "SPARBench_1",
+        "baseline": 2,
+        "fused": 3
+      },
+      {
+        "qid": "SPARBench_2",
+        "baseline": 3,
+        "fused": 5
+      },
+      {
+        "qid": "SPARBench_3",
+        "baseline": 4,
+        "fused": 7
+      },
+      {
+        "qid": "SPARBench_7",
+        "baseline": 3,
+        "fused": 4
+      },
+      {
+        "qid": "SPARBench_11",
+        "baseline": 0,
+        "fused": 1
+      },
+      {
+        "qid": "SPARBench_12",
+        "baseline": 0,
+        "fused": 1
+      },
+      {
+        "qid": "SPARBench_18",
+        "baseline": 1,
+        "fused": 2
+      },
+      {
+        "qid": "SPARBench_19",
+        "baseline": 1,
+        "fused": 2
+      },
+      {
+        "qid": "SPARBench_20",
+        "baseline": 0,
+        "fused": 1
+      },
+      {
+        "qid": "SPARBench_21",
+        "baseline": 2,
+        "fused": 3
+      },
+      {
+        "qid": "SPARBench_23",
+        "baseline": 4,
+        "fused": 5
+      },
+      {
+        "qid": "SPARBench_27",
+        "baseline": 4,
+        "fused": 5
+      }
+    ],
+    "queries_zero_found": 14
+  }
+}

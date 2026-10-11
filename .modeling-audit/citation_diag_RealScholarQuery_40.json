@@ -1,0 +1,71 @@
+{
+  "qid": "RealScholarQuery_40",
+  "query": "Could you list research that demonstrates the advantages of Quantization-Aware Training (QAT), which can enable the model to learn better representations for low-bit weights?.",
+  "candidate_total": 92,
+  "citation_count": 3,
+  "citation_in_topk": 0,
+  "gold_total": 5,
+  "gold_in_candidates": 2,
+  "gold_in_citation": 0,
+  "round_citation_detail": [
+    {
+      "round": 1,
+      "citation": {
+        "api_calls": 0,
+        "skipped": "no_seed_or_config"
+      }
+    },
+    {
+      "round": 2,
+      "citation": {
+        "provider": "openalex-neighborhood",
+        "directions": [
+          "cites",
+          "referenced_works"
+        ],
+        "returned_count": 3,
+        "api_calls": 6,
+        "per_call": [
+          {
+            "seed": "W4399554365",
+            "direction": "cites",
+            "returned": 2
+          },
+          {
+            "seed": "W4399554365",
+            "direction": "referenced_works",
+            "returned": 2
+          },
+          {
+            "seed": "W4392972149",
+            "direction": "cites",
+            "returned": 1
+          },
+          {
+            "seed": "W4392972149",
+            "direction": "referenced_works",
+            "returned": 1
+          },
+          {
+            "seed": "W7125390417",
+            "direction": "cites",
+            "returned": 0
+          },
+          {
+            "seed": "W7125390417",
+            "direction": "referenced_works",
+            "returned": 0
+          }
+        ],
+        "latency_ms": 3218.4589999960735,
+        "cache_hit": false,
+        "cache_entry_sha256": "7227247c7c7c05f7d75958c6034d5bc43e6de563c764c652a91a482847d4925d"
+      }
+    }
+  ],
+  "citation_titles": [
+    "A review of AI edge devices and lightweight CNN and LLM deployment",
+    "A Survey on Efficient Vision‐Language Models",
+    "A survey on knowledge distillation: Recent advancements"
+  ]
+}

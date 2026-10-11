@@ -1,0 +1,29 @@
+fastapi>=0.115.0,<1.0.0
+uvicorn[standard]>=0.30.0,<1.0.0
+pydantic>=2.0.0,<3.0.0
+pydantic-settings>=2.0.0,<3.0.0
+python-dotenv>=1.0.0,<2.0.0
+langgraph>=0.2.0,<2.0.0
+langchain>=0.3.0,<2.0.0
+langchain-community>=0.3.0,<2.0.0
+zhipuai>=2.1.0,<3.0.0
+httpx>=0.27.0,<1.0.0
+tavily-python>=0.5.0,<1.0.0
+pymilvus>=2.4.0,<3.0.0
+protobuf>=5.27.2,<6.0.0
+psycopg[binary]>=3.1.0,<4.0.0
+torch>=2.2.0,<3.0.0
+FlagEmbedding>=1.2.10,<1.5.0
+transformers>=4.44.2,<5.0.0
+huggingface-hub>=0.28.0,<2.0.0
+# PaSa 7B selector (optional ranking signal): 4-bit load needs bitsandbytes,
+# device_map="auto" needs accelerate. Guarded imports keep CPU-only installs
+# functional (the selector just degrades to unavailable).
+bitsandbytes>=0.50.0,<1.0.0
+accelerate>=0.26.0,<2.0.0
+hf-xet>=1.1.0,<2.0.0
+pytest>=8.0.0,<10.0.0
+
+# Local FAISS backend and explicit numeric dependency
+faiss-cpu>=1.8.0,<2.0.0
+numpy>=1.26.0,<3.0.0

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "p-alpha-real",
+    "canonical_paper_id": "p-alpha-real",
+    "preferred_version_id": "p-alpha-real:v1",
+    "title": "Alpha Control on RobotSet with Real Robot Experiments",
+    "abstract": "We use the Alpha method on RobotSet and validate it with real robot experiments.",
+    "authors": ["A. Researcher"],
+    "year": 2024,
+    "venue": "Robotics Conference",
+    "publication_type": "research_article",
+    "source": "openalex",
+    "score": 0.91,
+    "field_provenance": [
+      {"field": "title", "value": "Alpha Control on RobotSet with Real Robot Experiments", "provider": "openalex", "confidence_level": "trusted"},
+      {"field": "abstract", "value": "We use the Alpha method on RobotSet and validate it with real robot experiments.", "provider": "openalex", "confidence_level": "trusted"},
+      {"field": "year", "value": 2024, "provider": "openalex", "confidence_level": "trusted"},
+      {"field": "venue", "value": "Robotics Conference", "provider": "openalex", "confidence_level": "trusted"}
+    ],
+    "oa_status": "open",
+    "pdf_url": "https://example.org/p-alpha-real.pdf"
+  },
+  {
+    "id": "p-alpha-old",
+    "canonical_paper_id": "p-alpha-old",
+    "preferred_version_id": "p-alpha-old:v1",
+    "title": "Alpha Control for Robots",
+    "abstract": "We introduce Alpha control for robots.",
+    "authors": ["B. Researcher"],
+    "year": 2019,
+    "venue": "Robotics Conference",
+    "publication_type": "research_article",
+    "source": "openalex",
+    "score": 0.88,
+    "field_provenance": [
+      {"field": "title", "value": "Alpha Control for Robots", "provider": "openalex", "confidence_level": "trusted"},
+      {"field": "abstract", "value": "We introduce Alpha control for robots.", "provider": "openalex", "confidence_level": "trusted"},
+      {"field": "year", "value": 2019, "provider": "openalex", "confidence_level": "trusted"}
+    ]
+  },
+  {
+    "id": "p-alpha-sim",
+    "canonical_paper_id": "p-alpha-sim",
+    "preferred_version_id": "p-alpha-sim:v1",
+    "title": "Alpha on RobotSet in Simulation",
+    "abstract": "The Alpha method is evaluated on RobotSet in simulation only.",
+    "authors": ["C. Researcher"],
+    "year": 2025,
+    "venue": "Simulation Workshop",
+    "publication_type": "research_article",
+    "source": "openalex",
+    "score": 0.95,
+    "field_provenance": [
+      {"field": "title", "value": "Alpha on RobotSet in Simulation", "provider": "openalex", "confidence_level": "trusted"},
+      {"field": "abstract", "value": "The Alpha method is evaluated on RobotSet in simulation only.", "provider": "openalex", "confidence_level": "trusted"},
+      {"field": "year", "value": 2025, "provider": "openalex", "confidence_level": "trusted"}
+    ]
+  },
+  {
+    "id": "p-alpha-unknown",
+    "canonical_paper_id": "p-alpha-unknown",
+    "preferred_version_id": "p-alpha-unknown:v1",
+    "title": "Alpha for Embodied Control",
+    "abstract": "We study the Alpha method for embodied control.",
+    "authors": ["D. Researcher"],
+    "year": 2025,
+    "venue": "Embodied AI Conference",
+    "publication_type": "research_article",
+    "source": "openalex",
+    "score": 0.72,
+    "field_provenance": [
+      {"field": "title", "value": "Alpha for Embodied Control", "provider": "openalex", "confidence_level": "trusted"},
+      {"field": "abstract", "value": "We study the Alpha method for embodied control.", "provider": "openalex", "confidence_level": "trusted"},
+      {"field": "year", "value": 2025, "provider": "openalex", "confidence_level": "trusted"}
+    ]
+  }
+]

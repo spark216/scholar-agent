@@ -1,0 +1,290 @@
+{
+  "test": "citation-on-vs-off",
+  "date": "2026-08-21",
+  "dataset": "pasa-real",
+  "sample_limit": 3,
+  "summary": "引文扩展机制可行(拉回57篇)但3条小样本未显指标增益",
+  "citation_on": {
+    "logged_at": "2026-08-21T01:58:56.165406+00:00",
+    "elapsed_s": 654.29,
+    "dataset": "pasa-real",
+    "sample_limit": 3,
+    "ks": [
+      5,
+      10
+    ],
+    "seed": 42,
+    "tag": "citation-on",
+    "citation_enabled": true,
+    "run_id": "1884121d652b43828effc7848bf250dc",
+    "git_commit": null,
+    "git_dirty": null,
+    "model": {
+      "bge_m3": "models/bge-m3-5617a9f6",
+      "reranker": "models/bge-reranker-v2-m3-953dc6f6"
+    },
+    "config_fingerprint": "c28baa80a98fc4a4dc4eae3ed81bf3f35bdc1441bf95f5f9d5f71deb729778bd",
+    "summary": {
+      "successful": 2,
+      "failed": 1,
+      "total_relevant": 69,
+      "mean_latency_ms": 217993.7,
+      "p50_latency_ms": 245353.9,
+      "p95_latency_ms": 247302.0,
+      "total_api_calls": 11,
+      "total_token_usage": 0
+    },
+    "metrics": {
+      "5": {
+        "precision": 0.0667,
+        "recall": 0.0667,
+        "f1": 0.0667,
+        "ndcg": 0.0565,
+        "mrr": 0.1111
+      },
+      "10": {
+        "precision": 0.0333,
+        "recall": 0.0667,
+        "f1": 0.0444,
+        "ndcg": 0.0565,
+        "mrr": 0.1111
+      }
+    },
+    "per_query": [
+      {
+        "qid": "RealScholarQuery_1",
+        "query": "Give me papers that share some insights about how large language models gain in-context learning capability in the process of pre-training.",
+        "relevant_count": 29,
+        "returned_count": 0,
+        "matched": [],
+        "latency_ms": 245353.9,
+        "api_calls": 0,
+        "token_usage": 0,
+        "metrics": {
+          "5": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "ndcg": 0.0,
+            "mrr": 0.0
+          },
+          "10": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "ndcg": 0.0,
+            "mrr": 0.0
+          }
+        }
+      },
+      {
+        "qid": "RealScholarQuery_7",
+        "query": "Show me research on the long video description. Here, long videos are defined as those with a duration of at least several minutes.",
+        "relevant_count": 35,
+        "returned_count": 10,
+        "matched": [],
+        "latency_ms": 247302.0,
+        "api_calls": 7,
+        "token_usage": 0,
+        "metrics": {
+          "5": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "ndcg": 0.0,
+            "mrr": 0.0
+          },
+          "10": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "ndcg": 0.0,
+            "mrr": 0.0
+          }
+        }
+      },
+      {
+        "qid": "RealScholarQuery_40",
+        "query": "Could you list research that demonstrates the advantages of Quantization-Aware Training (QAT), which can enable the model to learn better representations for low-bit weights?.",
+        "relevant_count": 5,
+        "returned_count": 10,
+        "matched": [
+          "EfficientQAT: Efficient Quantization-Aware Training for Large Language   Models"
+        ],
+        "latency_ms": 161325.3,
+        "api_calls": 4,
+        "token_usage": 0,
+        "metrics": {
+          "5": {
+            "precision": 0.2,
+            "recall": 0.2,
+            "f1": 0.2,
+            "ndcg": 0.1696,
+            "mrr": 0.3333
+          },
+          "10": {
+            "precision": 0.1,
+            "recall": 0.2,
+            "f1": 0.1333,
+            "ndcg": 0.1696,
+            "mrr": 0.3333
+          }
+        }
+      }
+    ]
+  },
+  "citation_off": {
+    "logged_at": "2026-08-21T02:11:05.853890+00:00",
+    "elapsed_s": 622.54,
+    "dataset": "pasa-real",
+    "sample_limit": 3,
+    "ks": [
+      5,
+      10
+    ],
+    "seed": 42,
+    "tag": "citation-off",
+    "citation_enabled": false,
+    "run_id": "5eeea1fac5e547e2967765a31f7c52a8",
+    "git_commit": null,
+    "git_dirty": null,
+    "model": {
+      "bge_m3": "models/bge-m3-5617a9f6",
+      "reranker": "models/bge-reranker-v2-m3-953dc6f6"
+    },
+    "config_fingerprint": "c28baa80a98fc4a4dc4eae3ed81bf3f35bdc1441bf95f5f9d5f71deb729778bd",
+    "summary": {
+      "successful": 3,
+      "failed": 0,
+      "total_relevant": 69,
+      "mean_latency_ms": 207482.6,
+      "p50_latency_ms": 225113.1,
+      "p95_latency_ms": 247260.1,
+      "total_api_calls": 23,
+      "total_token_usage": 0
+    },
+    "metrics": {
+      "5": {
+        "precision": 0.0667,
+        "recall": 0.0667,
+        "f1": 0.0667,
+        "ndcg": 0.0565,
+        "mrr": 0.1111
+      },
+      "10": {
+        "precision": 0.1,
+        "recall": 0.0897,
+        "f1": 0.0786,
+        "ndcg": 0.1009,
+        "mrr": 0.1528
+      }
+    },
+    "per_query": [
+      {
+        "qid": "RealScholarQuery_1",
+        "query": "Give me papers that share some insights about how large language models gain in-context learning capability in the process of pre-training.",
+        "relevant_count": 29,
+        "returned_count": 10,
+        "matched": [
+          "In-context Pretraining: Language Modeling Beyond Document Boundaries",
+          "Understanding in-context learning via supportive pretraining data"
+        ],
+        "latency_ms": 247260.1,
+        "api_calls": 13,
+        "token_usage": 0,
+        "metrics": {
+          "5": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "ndcg": 0.0,
+            "mrr": 0.0
+          },
+          "10": {
+            "precision": 0.2,
+            "recall": 0.069,
+            "f1": 0.1026,
+            "ndcg": 0.1331,
+            "mrr": 0.125
+          }
+        }
+      },
+      {
+        "qid": "RealScholarQuery_7",
+        "query": "Show me research on the long video description. Here, long videos are defined as those with a duration of at least several minutes.",
+        "relevant_count": 35,
+        "returned_count": 10,
+        "matched": [],
+        "latency_ms": 225113.1,
+        "api_calls": 6,
+        "token_usage": 0,
+        "metrics": {
+          "5": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "ndcg": 0.0,
+            "mrr": 0.0
+          },
+          "10": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "ndcg": 0.0,
+            "mrr": 0.0
+          }
+        }
+      },
+      {
+        "qid": "RealScholarQuery_40",
+        "query": "Could you list research that demonstrates the advantages of Quantization-Aware Training (QAT), which can enable the model to learn better representations for low-bit weights?.",
+        "relevant_count": 5,
+        "returned_count": 10,
+        "matched": [
+          "EfficientQAT: Efficient Quantization-Aware Training for Large Language   Models"
+        ],
+        "latency_ms": 150074.6,
+        "api_calls": 4,
+        "token_usage": 0,
+        "metrics": {
+          "5": {
+            "precision": 0.2,
+            "recall": 0.2,
+            "f1": 0.2,
+            "ndcg": 0.1696,
+            "mrr": 0.3333
+          },
+          "10": {
+            "precision": 0.1,
+            "recall": 0.2,
+            "f1": 0.1333,
+            "ndcg": 0.1696,
+            "mrr": 0.3333
+          }
+        }
+      }
+    ]
+  },
+  "comparison": {
+    "mrr5": {
+      "on": 0.1111,
+      "off": 0.1111
+    },
+    "f1_5": {
+      "on": 0.0667,
+      "off": 0.0667
+    },
+    "successful": {
+      "on": 2,
+      "off": 3
+    },
+    "api_calls": {
+      "on": 11,
+      "off": 23
+    },
+    "elapsed_s": {
+      "on": 654.29,
+      "off": 622.54
+    }
+  }
+}

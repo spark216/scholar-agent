@@ -1,0 +1,512 @@
+{
+  "dataset": "pasa-real",
+  "pool": 200,
+  "queries": 50,
+  "gold_total": 791,
+  "fts_found": 198,
+  "vec_found": 232,
+  "fts_recall": 0.2503,
+  "vec_recall": 0.2933,
+  "per_query": [
+    {
+      "qid": "RealScholarQuery_0",
+      "query": "Give me papers which show that using a smaller dataset in la",
+      "gold_count": 9,
+      "fts_found": 1,
+      "vec_found": 1,
+      "gold_in_both": 0,
+      "vec_only": 1,
+      "fts_only": 1
+    },
+    {
+      "qid": "RealScholarQuery_1",
+      "query": "Give me papers that share some insights about how large lang",
+      "gold_count": 29,
+      "fts_found": 3,
+      "vec_found": 10,
+      "gold_in_both": 3,
+      "vec_only": 7,
+      "fts_only": 0
+    },
+    {
+      "qid": "RealScholarQuery_2",
+      "query": "List all papers that use autoregressive transformer to gener",
+      "gold_count": 21,
+      "fts_found": 11,
+      "vec_found": 11,
+      "gold_in_both": 8,
+      "vec_only": 3,
+      "fts_only": 3
+    },
+    {
+      "qid": "RealScholarQuery_3",
+      "query": "I am looking for research papers on the construction of mult",
+      "gold_count": 42,
+      "fts_found": 5,
+      "vec_found": 4,
+      "gold_in_both": 3,
+      "vec_only": 1,
+      "fts_only": 2
+    },
+    {
+      "qid": "RealScholarQuery_4",
+      "query": "Provide me with all papers that discuss reinforcement learni",
+      "gold_count": 44,
+      "fts_found": 11,
+      "vec_found": 12,
+      "gold_in_both": 5,
+      "vec_only": 7,
+      "fts_only": 6
+    },
+    {
+      "qid": "RealScholarQuery_5",
+      "query": "Papers that apply RLHF to address the hallucination problem ",
+      "gold_count": 7,
+      "fts_found": 3,
+      "vec_found": 3,
+      "gold_in_both": 3,
+      "vec_only": 0,
+      "fts_only": 0
+    },
+    {
+      "qid": "RealScholarQuery_6",
+      "query": "Papers that propose methods based on large language models a",
+      "gold_count": 24,
+      "fts_found": 6,
+      "vec_found": 3,
+      "gold_in_both": 1,
+      "vec_only": 2,
+      "fts_only": 5
+    },
+    {
+      "qid": "RealScholarQuery_7",
+      "query": "Show me research on the long video description. Here, long v",
+      "gold_count": 35,
+      "fts_found": 3,
+      "vec_found": 8,
+      "gold_in_both": 3,
+      "vec_only": 5,
+      "fts_only": 0
+    },
+    {
+      "qid": "RealScholarQuery_8",
+      "query": "Do you know some papers about using reward shaping methods t",
+      "gold_count": 16,
+      "fts_found": 5,
+      "vec_found": 5,
+      "gold_in_both": 4,
+      "vec_only": 1,
+      "fts_only": 1
+    },
+    {
+      "qid": "RealScholarQuery_9",
+      "query": "Give me papers about how to rank search results by the use o",
+      "gold_count": 39,
+      "fts_found": 9,
+      "vec_found": 13,
+      "gold_in_both": 6,
+      "vec_only": 7,
+      "fts_only": 3
+    },
+    {
+      "qid": "RealScholarQuery_10",
+      "query": "Is there any work that analyzes the scaling law of the multi",
+      "gold_count": 15,
+      "fts_found": 0,
+      "vec_found": 4,
+      "gold_in_both": 0,
+      "vec_only": 4,
+      "fts_only": 0
+    },
+    {
+      "qid": "RealScholarQuery_11",
+      "query": "Give me all visual-LLM models that are MoE architecture",
+      "gold_count": 20,
+      "fts_found": 4,
+      "vec_found": 9,
+      "gold_in_both": 3,
+      "vec_only": 6,
+      "fts_only": 1
+    },
+    {
+      "qid": "RealScholarQuery_12",
+      "query": "What papers discuss the use of transformer architecture in 3",
+      "gold_count": 17,
+      "fts_found": 8,
+      "vec_found": 5,
+      "gold_in_both": 4,
+      "vec_only": 1,
+      "fts_only": 4
+    },
+    {
+      "qid": "RealScholarQuery_13",
+      "query": "Provide papers demonstrating that the self-correction of LLM",
+      "gold_count": 12,
+      "fts_found": 3,
+      "vec_found": 5,
+      "gold_in_both": 3,
+      "vec_only": 2,
+      "fts_only": 0
+    },
+    {
+      "qid": "RealScholarQuery_14",
+      "query": "Find papers that use LLMs or LLM-based agents to automatical",
+      "gold_count": 9,
+      "fts_found": 1,
+      "vec_found": 3,
+      "gold_in_both": 0,
+      "vec_only": 3,
+      "fts_only": 1
+    },
+    {
+      "qid": "RealScholarQuery_15",
+      "query": "Provide papers claiming that reinforcement learning can nega",
+      "gold_count": 5,
+      "fts_found": 0,
+      "vec_found": 0,
+      "gold_in_both": 0,
+      "vec_only": 0,
+      "fts_only": 0
+    },
+    {
+      "qid": "RealScholarQuery_16",
+      "query": "Find papers on trigger-free document-level event extraction ",
+      "gold_count": 8,
+      "fts_found": 8,
+      "vec_found": 7,
+      "gold_in_both": 7,
+      "vec_only": 0,
+      "fts_only": 1
+    },
+    {
+      "qid": "RealScholarQuery_17",
+      "query": "Provide papers explaining why the in-context learning perfor",
+      "gold_count": 9,
+      "fts_found": 1,
+      "vec_found": 4,
+      "gold_in_both": 0,
+      "vec_only": 4,
+      "fts_only": 1
+    },
+    {
+      "qid": "RealScholarQuery_18",
+      "query": "Can LLMs detect LLM-generated text in a zero-shot manner? Do",
+      "gold_count": 5,
+      "fts_found": 3,
+      "vec_found": 3,
+      "gold_in_both": 3,
+      "vec_only": 0,
+      "fts_only": 0
+    },
+    {
+      "qid": "RealScholarQuery_19",
+      "query": "Provide papers on methods that protect the generation qualit",
+      "gold_count": 37,
+      "fts_found": 5,
+      "vec_found": 22,
+      "gold_in_both": 5,
+      "vec_only": 17,
+      "fts_only": 0
+    },
+    {
+      "qid": "RealScholarQuery_20",
+      "query": "Find papers supporting the claim that knowledgeable LLMs hav",
+      "gold_count": 4,
+      "fts_found": 0,
+      "vec_found": 1,
+      "gold_in_both": 0,
+      "vec_only": 1,
+      "fts_only": 0
+    },
+    {
+      "qid": "RealScholarQuery_21",
+      "query": "Search for papers related to large language models that demo",
+      "gold_count": 2,
+      "fts_found": 0,
+      "vec_found": 0,
+      "gold_in_both": 0,
+      "vec_only": 0,
+      "fts_only": 0
+    },
+    {
+      "qid": "RealScholarQuery_22",
+      "query": "Papers on solving common sense problems in machine translati",
+      "gold_count": 3,
+      "fts_found": 0,
+      "vec_found": 0,
+      "gold_in_both": 0,
+      "vec_only": 0,
+      "fts_only": 0
+    },
+    {
+      "qid": "RealScholarQuery_23",
+      "query": "Show me papers utilizing reinforcement learning to optimize ",
+      "gold_count": 2,
+      "fts_found": 1,
+      "vec_found": 2,
+      "gold_in_both": 1,
+      "vec_only": 1,
+      "fts_only": 0
+    },
+    {
+      "qid": "RealScholarQuery_24",
+      "query": "Show me all research papers on machine translation agents.",
+      "gold_count": 11,
+      "fts_found": 7,
+      "vec_found": 0,
+      "gold_in_both": 0,
+      "vec_only": 0,
+      "fts_only": 7
+    },
+    {
+      "qid": "RealScholarQuery_25",
+      "query": "Video aesthetics score, using multimodal large models.",
+      "gold_count": 1,
+      "fts_found": 1,
+      "vec_found": 0,
+      "gold_in_both": 0,
+      "vec_only": 0,
+      "fts_only": 1
+    },
+    {
+      "qid": "RealScholarQuery_26",
+      "query": "Scaling Laws for Fine-Grained Mixture of Experts.",
+      "gold_count": 2,
+      "fts_found": 2,
+      "vec_found": 2,
+      "gold_in_both": 2,
+      "vec_only": 0,
+      "fts_only": 0
+    },
+    {
+      "qid": "RealScholarQuery_27",
+      "query": "Show me research on rejection sampling finetuning.",
+      "gold_count": 9,
+      "fts_found": 4,
+      "vec_found": 3,
+      "gold_in_both": 2,
+      "vec_only": 1,
+      "fts_only": 2
+    },
+    {
+      "qid": "RealScholarQuery_28",
+      "query": "Show me code evaluation datasets with a mid-level hardness. ",
+      "gold_count": 4,
+      "fts_found": 1,
+      "vec_found": 1,
+      "gold_in_both": 1,
+      "vec_only": 0,
+      "fts_only": 0
+    },
+    {
+      "qid": "RealScholarQuery_29",
+      "query": "Research on teaching llms to do math prove and solve IMO lev",
+      "gold_count": 8,
+      "fts_found": 2,
+      "vec_found": 2,
+      "gold_in_both": 0,
+      "vec_only": 2,
+      "fts_only": 2
+    },
+    {
+      "qid": "RealScholarQuery_30",
+      "query": "I would like to find some research papers about test time tr",
+      "gold_count": 6,
+      "fts_found": 0,
+      "vec_found": 1,
+      "gold_in_both": 0,
+      "vec_only": 1,
+      "fts_only": 0
+    },
+    {
+      "qid": "RealScholarQuery_31",
+      "query": "DPO training for large-scale vision-language models.",
+      "gold_count": 15,
+      "fts_found": 5,
+      "vec_found": 5,
+      "gold_in_both": 2,
+      "vec_only": 3,
+      "fts_only": 3
+    },
+    {
+      "qid": "RealScholarQuery_32",
+      "query": "Show me cutting edge research works on neural network based ",
+      "gold_count": 16,
+      "fts_found": 0,
+      "vec_found": 1,
+      "gold_in_both": 0,
+      "vec_only": 1,
+      "fts_only": 0
+    },
+    {
+      "qid": "RealScholarQuery_33",
+      "query": "Show me some popular papers on generating textual adversaria",
+      "gold_count": 13,
+      "fts_found": 9,
+      "vec_found": 8,
+      "gold_in_both": 7,
+      "vec_only": 1,
+      "fts_only": 2
+    },
+    {
+      "qid": "RealScholarQuery_34",
+      "query": "Show me research on 3d scene understanding leveraging progre",
+      "gold_count": 7,
+      "fts_found": 3,
+      "vec_found": 3,
+      "gold_in_both": 3,
+      "vec_only": 0,
+      "fts_only": 0
+    },
+    {
+      "qid": "RealScholarQuery_35",
+      "query": "Give me papers about LLM quantized pretraining.",
+      "gold_count": 7,
+      "fts_found": 2,
+      "vec_found": 2,
+      "gold_in_both": 1,
+      "vec_only": 1,
+      "fts_only": 1
+    },
+    {
+      "qid": "RealScholarQuery_36",
+      "query": "Show me research on identity preservation video generation.",
+      "gold_count": 33,
+      "fts_found": 18,
+      "vec_found": 14,
+      "gold_in_both": 12,
+      "vec_only": 2,
+      "fts_only": 6
+    },
+    {
+      "qid": "RealScholarQuery_37",
+      "query": "Give me some papers showing that LLM agents can do schedule ",
+      "gold_count": 10,
+      "fts_found": 5,
+      "vec_found": 5,
+      "gold_in_both": 4,
+      "vec_only": 1,
+      "fts_only": 1
+    },
+    {
+      "qid": "RealScholarQuery_38",
+      "query": "Show me research on image encoding distributions.",
+      "gold_count": 17,
+      "fts_found": 4,
+      "vec_found": 2,
+      "gold_in_both": 2,
+      "vec_only": 0,
+      "fts_only": 2
+    },
+    {
+      "qid": "RealScholarQuery_39",
+      "query": "Help me search for the work related to the synthetic data of",
+      "gold_count": 2,
+      "fts_found": 0,
+      "vec_found": 1,
+      "gold_in_both": 0,
+      "vec_only": 1,
+      "fts_only": 0
+    },
+    {
+      "qid": "RealScholarQuery_40",
+      "query": "Could you list research that demonstrates the advantages of ",
+      "gold_count": 5,
+      "fts_found": 3,
+      "vec_found": 3,
+      "gold_in_both": 3,
+      "vec_only": 0,
+      "fts_only": 0
+    },
+    {
+      "qid": "RealScholarQuery_41",
+      "query": "Using synthesis data for scaling up sft data.",
+      "gold_count": 5,
+      "fts_found": 4,
+      "vec_found": 1,
+      "gold_in_both": 1,
+      "vec_only": 0,
+      "fts_only": 3
+    },
+    {
+      "qid": "RealScholarQuery_42",
+      "query": "Show me research on how to select frames when doing video un",
+      "gold_count": 10,
+      "fts_found": 3,
+      "vec_found": 4,
+      "gold_in_both": 2,
+      "vec_only": 2,
+      "fts_only": 1
+    },
+    {
+      "qid": "RealScholarQuery_43",
+      "query": "AI for Science papers, especially protein design and DPO of ",
+      "gold_count": 28,
+      "fts_found": 7,
+      "vec_found": 5,
+      "gold_in_both": 4,
+      "vec_only": 1,
+      "fts_only": 3
+    },
+    {
+      "qid": "RealScholarQuery_44",
+      "query": "What are the researches that have explored the application o",
+      "gold_count": 25,
+      "fts_found": 3,
+      "vec_found": 1,
+      "gold_in_both": 0,
+      "vec_only": 1,
+      "fts_only": 3
+    },
+    {
+      "qid": "RealScholarQuery_45",
+      "query": "All papers about controllability of video generation.",
+      "gold_count": 58,
+      "fts_found": 18,
+      "vec_found": 22,
+      "gold_in_both": 13,
+      "vec_only": 9,
+      "fts_only": 5
+    },
+    {
+      "qid": "RealScholarQuery_46",
+      "query": "Show me research on robot decision making and task planning,",
+      "gold_count": 65,
+      "fts_found": 1,
+      "vec_found": 6,
+      "gold_in_both": 0,
+      "vec_only": 6,
+      "fts_only": 1
+    },
+    {
+      "qid": "RealScholarQuery_47",
+      "query": "How can LLM agents be evaluated and benchmarked for financia",
+      "gold_count": 4,
+      "fts_found": 2,
+      "vec_found": 1,
+      "gold_in_both": 0,
+      "vec_only": 1,
+      "fts_only": 2
+    },
+    {
+      "qid": "RealScholarQuery_48",
+      "query": "Papers that explore using large language models for mining f",
+      "gold_count": 8,
+      "fts_found": 1,
+      "vec_found": 3,
+      "gold_in_both": 0,
+      "vec_only": 3,
+      "fts_only": 1
+    },
+    {
+      "qid": "RealScholarQuery_49",
+      "query": "Can you help me find research papers that explore the use of",
+      "gold_count": 8,
+      "fts_found": 2,
+      "vec_found": 1,
+      "gold_in_both": 1,
+      "vec_only": 0,
+      "fts_only": 1
+    }
+  ]
+}

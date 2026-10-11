@@ -1,0 +1,1312 @@
+{
+  "selector": {
+    "per_query": [
+      {
+        "qid": "RealScholarQuery_1",
+        "hits_total": 10,
+        "matched": [
+          "Parallel Structures in Pre-training Data Yield In-Context Learning",
+          "Understanding in-context learning via supportive pretraining data",
+          "A theory of emergent in-context learning as implicit structure induction",
+          "Language Models \"\"Grok\"\" to Copy",
+          "Pre-Training to Learn in Context",
+          "An Explanation of In-context Learning as Implicit Bayesian Inference",
+          "The learnability of in-context learning",
+          "In-context Pretraining: Language Modeling Beyond Document Boundaries",
+          "Explaining Emergent In-Context Learning as Kernel Regression",
+          "A Mechanism for Sample-Efficient In-Context Learning for Sparse Retrieval Tasks"
+        ],
+        "metrics": {
+          "5": {
+            "precision": 1.0,
+            "recall": 0.1724137931034483,
+            "f1": 0.29411764705882354,
+            "ndcg": 1.0,
+            "mrr": 1.0,
+            "hits": 5
+          },
+          "10": {
+            "precision": 0.7,
+            "recall": 0.2413793103448276,
+            "f1": 0.358974358974359,
+            "ndcg": 0.800693766409882,
+            "mrr": 1.0,
+            "hits": 7
+          },
+          "20": {
+            "precision": 0.4,
+            "recall": 0.27586206896551724,
+            "f1": 0.32653061224489793,
+            "ndcg": 0.555126251121733,
+            "mrr": 1.0,
+            "hits": 8
+          }
+        }
+      },
+      {
+        "qid": "RealScholarQuery_7",
+        "hits_total": 8,
+        "matched": [
+          "Video ReCap: Recursive Captioning of Hour-Long Videos",
+          "Dense-Captioning Events in Videos",
+          "DrVideo: Document Retrieval Based Long Video Understanding",
+          "Koala: Key frame-conditioned long video-LLM",
+          "LLMs Meet Long Video: Advancing Long Video Comprehension with An Interactive Visual Adapter in LLMs",
+          "LongVideoBench: A Benchmark for Long-context Interleaved Video-Language Understanding",
+          "Learning To Recognize Procedural Activities with Distant Supervision",
+          "MLVU: A Comprehensive Benchmark for Multi-Task Long Video Understanding"
+        ],
+        "metrics": {
+          "5": {
+            "precision": 0.4,
+            "recall": 0.05714285714285714,
+            "f1": 0.09999999999999999,
+            "ndcg": 0.4703652827859579,
+            "mrr": 1.0,
+            "hits": 2
+          },
+          "10": {
+            "precision": 0.3,
+            "recall": 0.08571428571428572,
+            "f1": 0.13333333333333333,
+            "ndcg": 0.36885567213865283,
+            "mrr": 1.0,
+            "hits": 3
+          },
+          "20": {
+            "precision": 0.3,
+            "recall": 0.17142857142857143,
+            "f1": 0.21818181818181817,
+            "ndcg": 0.34244262130616526,
+            "mrr": 1.0,
+            "hits": 6
+          }
+        }
+      },
+      {
+        "qid": "RealScholarQuery_17",
+        "hits_total": 5,
+        "matched": [
+          "Thinking about GPT-3 In-Context Learning for Biomedical IE? Think Again",
+          "Large Language Model Is Not a Good Few-shot Information Extractor, but a Good Reranker for Hard Samples!",
+          "MetaIE: Distilling a Meta Model from LLM for All Kinds of Information Extraction Tasks",
+          "When does In-context Learning Fall Short and Why? A Study on   Specification-Heavy Tasks",
+          "Guideline Learning for In-context Information Extraction"
+        ],
+        "metrics": {
+          "5": {
+            "precision": 0.8,
+            "recall": 0.4444444444444444,
+            "f1": 0.5714285714285714,
+            "ndcg": 0.830419897363192,
+            "mrr": 1.0,
+            "hits": 4
+          },
+          "10": {
+            "precision": 0.4,
+            "recall": 0.4444444444444444,
+            "f1": 0.4210526315789474,
+            "ndcg": 0.5754994188159135,
+            "mrr": 1.0,
+            "hits": 4
+          },
+          "20": {
+            "precision": 0.25,
+            "recall": 0.5555555555555556,
+            "f1": 0.3448275862068966,
+            "ndcg": 0.6410637167317782,
+            "mrr": 1.0,
+            "hits": 5
+          }
+        }
+      },
+      {
+        "qid": "RealScholarQuery_40",
+        "hits_total": 3,
+        "matched": [
+          "EfficientQAT: Efficient Quantization-Aware Training for Large Language   Models",
+          "Low-Rank Quantization-Aware Training for LLMs",
+          "EdgeQAT: Entropy and Distribution Guided Quantization-Aware Training for\n  the Acceleration of Lightweight LLMs on the Edge"
+        ],
+        "metrics": {
+          "5": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "ndcg": 0.0,
+            "mrr": 0.0,
+            "hits": 0
+          },
+          "10": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "ndcg": 0.0,
+            "mrr": 0.0,
+            "hits": 0
+          },
+          "20": {
+            "precision": 0.05,
+            "recall": 0.2,
+            "f1": 0.08000000000000002,
+            "ndcg": 0.09165402792833294,
+            "mrr": 0.08333333333333333,
+            "hits": 1
+          }
+        }
+      },
+      {
+        "qid": "RealScholarQuery_47",
+        "hits_total": 3,
+        "matched": [
+          "Financial Knowledge Large Language Model",
+          "FinEval: A Chinese Financial Domain Knowledge Evaluation Benchmark for Large Language Models",
+          "Towards a Realistic Long-Term Benchmark for Open-Web Research Agents"
+        ],
+        "metrics": {
+          "5": {
+            "precision": 0.2,
+            "recall": 0.25,
+            "f1": 0.22222222222222224,
+            "ndcg": 0.15101961822780524,
+            "mrr": 0.2,
+            "hits": 1
+          },
+          "10": {
+            "precision": 0.2,
+            "recall": 0.5,
+            "f1": 0.28571428571428575,
+            "ndcg": 0.2741708125981702,
+            "mrr": 0.2,
+            "hits": 2
+          },
+          "20": {
+            "precision": 0.15,
+            "recall": 0.75,
+            "f1": 0.24999999999999997,
+            "ndcg": 0.3796663968332806,
+            "mrr": 0.2,
+            "hits": 3
+          }
+        }
+      }
+    ],
+    "agg": {
+      "5": {
+        "precision": 0.4800000000000001,
+        "recall": 0.18480021893814996,
+        "f1": 0.23755368814192343,
+        "ndcg": 0.49036095967539106,
+        "mrr": 0.64,
+        "hits": 12
+      },
+      "10": {
+        "precision": 0.31999999999999995,
+        "recall": 0.2543076081007115,
+        "f1": 0.2398149219201851,
+        "ndcg": 0.40384393399252366,
+        "mrr": 0.64,
+        "hits": 16
+      },
+      "20": {
+        "precision": 0.22999999999999998,
+        "recall": 0.3905692391899288,
+        "f1": 0.24390800332672255,
+        "ndcg": 0.40199060278425797,
+        "mrr": 0.6566666666666667,
+        "hits": 23
+      }
+    }
+  },
+  "reranker": {
+    "per_query": [
+      {
+        "qid": "RealScholarQuery_1",
+        "hits_total": 10,
+        "matched": [
+          "An Explanation of In-context Learning as Implicit Bayesian Inference",
+          "Pre-Training to Learn in Context",
+          "In-context Pretraining: Language Modeling Beyond Document Boundaries",
+          "The learnability of in-context learning",
+          "Explaining Emergent In-Context Learning as Kernel Regression",
+          "A theory of emergent in-context learning as implicit structure induction",
+          "Understanding in-context learning via supportive pretraining data",
+          "Language Models \"\"Grok\"\" to Copy",
+          "A Mechanism for Sample-Efficient In-Context Learning for Sparse Retrieval Tasks",
+          "Parallel Structures in Pre-training Data Yield In-Context Learning"
+        ],
+        "metrics": {
+          "5": {
+            "precision": 0.4,
+            "recall": 0.06896551724137931,
+            "f1": 0.1176470588235294,
+            "ndcg": 0.5087403079104241,
+            "mrr": 1.0,
+            "hits": 2
+          },
+          "10": {
+            "precision": 0.4,
+            "recall": 0.13793103448275862,
+            "f1": 0.20512820512820515,
+            "ndcg": 0.4779671403625728,
+            "mrr": 1.0,
+            "hits": 4
+          },
+          "20": {
+            "precision": 0.3,
+            "recall": 0.20689655172413793,
+            "f1": 0.24489795918367346,
+            "ndcg": 0.3787245686340576,
+            "mrr": 1.0,
+            "hits": 6
+          }
+        }
+      },
+      {
+        "qid": "RealScholarQuery_7",
+        "hits_total": 8,
+        "matched": [
+          "Learning To Recognize Procedural Activities with Distant Supervision",
+          "Video ReCap: Recursive Captioning of Hour-Long Videos",
+          "DrVideo: Document Retrieval Based Long Video Understanding",
+          "MLVU: A Comprehensive Benchmark for Multi-Task Long Video Understanding",
+          "Koala: Key frame-conditioned long video-LLM",
+          "LLMs Meet Long Video: Advancing Long Video Comprehension with An Interactive Visual Adapter in LLMs",
+          "Dense-Captioning Events in Videos",
+          "LongVideoBench: A Benchmark for Long-context Interleaved Video-Language Understanding"
+        ],
+        "metrics": {
+          "5": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "ndcg": 0.0,
+            "mrr": 0.0,
+            "hits": 0
+          },
+          "10": {
+            "precision": 0.2,
+            "recall": 0.05714285714285714,
+            "f1": 0.08888888888888888,
+            "ndcg": 0.13305201013572898,
+            "mrr": 0.125,
+            "hits": 2
+          },
+          "20": {
+            "precision": 0.15,
+            "recall": 0.08571428571428572,
+            "f1": 0.10909090909090909,
+            "ndcg": 0.1193049143732743,
+            "mrr": 0.125,
+            "hits": 3
+          }
+        }
+      },
+      {
+        "qid": "RealScholarQuery_17",
+        "hits_total": 5,
+        "matched": [
+          "When does In-context Learning Fall Short and Why? A Study on   Specification-Heavy Tasks",
+          "Guideline Learning for In-context Information Extraction",
+          "MetaIE: Distilling a Meta Model from LLM for All Kinds of Information Extraction Tasks",
+          "Large Language Model Is Not a Good Few-shot Information Extractor, but a Good Reranker for Hard Samples!",
+          "Thinking about GPT-3 In-Context Learning for Biomedical IE? Think Again"
+        ],
+        "metrics": {
+          "5": {
+            "precision": 0.4,
+            "recall": 0.2222222222222222,
+            "f1": 0.2857142857142857,
+            "ndcg": 0.38356636737133565,
+            "mrr": 0.5,
+            "hits": 2
+          },
+          "10": {
+            "precision": 0.2,
+            "recall": 0.2222222222222222,
+            "f1": 0.2105263157894737,
+            "ndcg": 0.26582000527739175,
+            "mrr": 0.5,
+            "hits": 2
+          },
+          "20": {
+            "precision": 0.1,
+            "recall": 0.2222222222222222,
+            "f1": 0.13793103448275865,
+            "ndcg": 0.26582000527739175,
+            "mrr": 0.5,
+            "hits": 2
+          }
+        }
+      },
+      {
+        "qid": "RealScholarQuery_40",
+        "hits_total": 3,
+        "matched": [
+          "EfficientQAT: Efficient Quantization-Aware Training for Large Language   Models",
+          "EdgeQAT: Entropy and Distribution Guided Quantization-Aware Training for\n  the Acceleration of Lightweight LLMs on the Edge",
+          "Low-Rank Quantization-Aware Training for LLMs"
+        ],
+        "metrics": {
+          "5": {
+            "precision": 0.2,
+            "recall": 0.2,
+            "f1": 0.20000000000000004,
+            "ndcg": 0.21398626473452756,
+            "mrr": 0.5,
+            "hits": 1
+          },
+          "10": {
+            "precision": 0.1,
+            "recall": 0.2,
+            "f1": 0.13333333333333333,
+            "ndcg": 0.21398626473452756,
+            "mrr": 0.5,
+            "hits": 1
+          },
+          "20": {
+            "precision": 0.05,
+            "recall": 0.2,
+            "f1": 0.08000000000000002,
+            "ndcg": 0.21398626473452756,
+            "mrr": 0.5,
+            "hits": 1
+          }
+        }
+      },
+      {
+        "qid": "RealScholarQuery_47",
+        "hits_total": 3,
+        "matched": [
+          "Towards a Realistic Long-Term Benchmark for Open-Web Research Agents",
+          "Financial Knowledge Large Language Model",
+          "FinEval: A Chinese Financial Domain Knowledge Evaluation Benchmark for Large Language Models"
+        ],
+        "metrics": {
+          "5": {
+            "precision": 0.2,
+            "recall": 0.25,
+            "f1": 0.22222222222222224,
+            "ndcg": 0.3903800499921017,
+            "mrr": 1.0,
+            "hits": 1
+          },
+          "10": {
+            "precision": 0.1,
+            "recall": 0.25,
+            "f1": 0.14285714285714288,
+            "ndcg": 0.3903800499921017,
+            "mrr": 1.0,
+            "hits": 1
+          },
+          "20": {
+            "precision": 0.1,
+            "recall": 0.5,
+            "f1": 0.16666666666666669,
+            "ndcg": 0.48227899336075625,
+            "mrr": 1.0,
+            "hits": 2
+          }
+        }
+      }
+    ],
+    "agg": {
+      "5": {
+        "precision": 0.24,
+        "recall": 0.1482375478927203,
+        "f1": 0.16511671335200745,
+        "ndcg": 0.29933459800167783,
+        "mrr": 0.6,
+        "hits": 6
+      },
+      "10": {
+        "precision": 0.2,
+        "recall": 0.17345922276956757,
+        "f1": 0.15614677719940878,
+        "ndcg": 0.2962410941004646,
+        "mrr": 0.625,
+        "hits": 10
+      },
+      "20": {
+        "precision": 0.13999999999999999,
+        "recall": 0.24296661193212915,
+        "f1": 0.14771731388480158,
+        "ndcg": 0.2920229492760015,
+        "mrr": 0.625,
+        "hits": 14
+      }
+    }
+  },
+  "sel_filter_rerank": {
+    "per_query": [
+      {
+        "qid": "RealScholarQuery_1",
+        "hits_total": 9,
+        "matched": [
+          "Parallel Structures in Pre-training Data Yield In-Context Learning",
+          "Understanding in-context learning via supportive pretraining data",
+          "A theory of emergent in-context learning as implicit structure induction",
+          "Language Models \"\"Grok\"\" to Copy",
+          "Pre-Training to Learn in Context",
+          "An Explanation of In-context Learning as Implicit Bayesian Inference",
+          "The learnability of in-context learning",
+          "In-context Pretraining: Language Modeling Beyond Document Boundaries",
+          "Explaining Emergent In-Context Learning as Kernel Regression"
+        ],
+        "metrics": {
+          "5": {
+            "precision": 1.0,
+            "recall": 0.1724137931034483,
+            "f1": 0.29411764705882354,
+            "ndcg": 1.0,
+            "mrr": 1.0,
+            "hits": 5
+          },
+          "10": {
+            "precision": 0.7,
+            "recall": 0.2413793103448276,
+            "f1": 0.358974358974359,
+            "ndcg": 0.800693766409882,
+            "mrr": 1.0,
+            "hits": 7
+          },
+          "20": {
+            "precision": 0.4,
+            "recall": 0.27586206896551724,
+            "f1": 0.32653061224489793,
+            "ndcg": 0.555126251121733,
+            "mrr": 1.0,
+            "hits": 8
+          }
+        }
+      },
+      {
+        "qid": "RealScholarQuery_7",
+        "hits_total": 8,
+        "matched": [
+          "Video ReCap: Recursive Captioning of Hour-Long Videos",
+          "Dense-Captioning Events in Videos",
+          "DrVideo: Document Retrieval Based Long Video Understanding",
+          "Koala: Key frame-conditioned long video-LLM",
+          "LLMs Meet Long Video: Advancing Long Video Comprehension with An Interactive Visual Adapter in LLMs",
+          "LongVideoBench: A Benchmark for Long-context Interleaved Video-Language Understanding",
+          "Learning To Recognize Procedural Activities with Distant Supervision",
+          "MLVU: A Comprehensive Benchmark for Multi-Task Long Video Understanding"
+        ],
+        "metrics": {
+          "5": {
+            "precision": 0.4,
+            "recall": 0.05714285714285714,
+            "f1": 0.09999999999999999,
+            "ndcg": 0.4703652827859579,
+            "mrr": 1.0,
+            "hits": 2
+          },
+          "10": {
+            "precision": 0.3,
+            "recall": 0.08571428571428572,
+            "f1": 0.13333333333333333,
+            "ndcg": 0.36885567213865283,
+            "mrr": 1.0,
+            "hits": 3
+          },
+          "20": {
+            "precision": 0.3,
+            "recall": 0.17142857142857143,
+            "f1": 0.21818181818181817,
+            "ndcg": 0.34244262130616526,
+            "mrr": 1.0,
+            "hits": 6
+          }
+        }
+      },
+      {
+        "qid": "RealScholarQuery_17",
+        "hits_total": 4,
+        "matched": [
+          "Thinking about GPT-3 In-Context Learning for Biomedical IE? Think Again",
+          "Large Language Model Is Not a Good Few-shot Information Extractor, but a Good Reranker for Hard Samples!",
+          "MetaIE: Distilling a Meta Model from LLM for All Kinds of Information Extraction Tasks",
+          "When does In-context Learning Fall Short and Why? A Study on   Specification-Heavy Tasks"
+        ],
+        "metrics": {
+          "5": {
+            "precision": 0.8,
+            "recall": 0.4444444444444444,
+            "f1": 0.5714285714285714,
+            "ndcg": 0.830419897363192,
+            "mrr": 1.0,
+            "hits": 4
+          },
+          "10": {
+            "precision": 0.4,
+            "recall": 0.4444444444444444,
+            "f1": 0.4210526315789474,
+            "ndcg": 0.5754994188159135,
+            "mrr": 1.0,
+            "hits": 4
+          },
+          "20": {
+            "precision": 0.2,
+            "recall": 0.4444444444444444,
+            "f1": 0.2758620689655173,
+            "ndcg": 0.5754994188159135,
+            "mrr": 1.0,
+            "hits": 4
+          }
+        }
+      },
+      {
+        "qid": "RealScholarQuery_40",
+        "hits_total": 3,
+        "matched": [
+          "EfficientQAT: Efficient Quantization-Aware Training for Large Language   Models",
+          "Low-Rank Quantization-Aware Training for LLMs",
+          "EdgeQAT: Entropy and Distribution Guided Quantization-Aware Training for\n  the Acceleration of Lightweight LLMs on the Edge"
+        ],
+        "metrics": {
+          "5": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "ndcg": 0.0,
+            "mrr": 0.0,
+            "hits": 0
+          },
+          "10": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "ndcg": 0.0,
+            "mrr": 0.0,
+            "hits": 0
+          },
+          "20": {
+            "precision": 0.05,
+            "recall": 0.2,
+            "f1": 0.08000000000000002,
+            "ndcg": 0.09165402792833294,
+            "mrr": 0.08333333333333333,
+            "hits": 1
+          }
+        }
+      },
+      {
+        "qid": "RealScholarQuery_47",
+        "hits_total": 3,
+        "matched": [
+          "Financial Knowledge Large Language Model",
+          "FinEval: A Chinese Financial Domain Knowledge Evaluation Benchmark for Large Language Models",
+          "Towards a Realistic Long-Term Benchmark for Open-Web Research Agents"
+        ],
+        "metrics": {
+          "5": {
+            "precision": 0.2,
+            "recall": 0.25,
+            "f1": 0.22222222222222224,
+            "ndcg": 0.15101961822780524,
+            "mrr": 0.2,
+            "hits": 1
+          },
+          "10": {
+            "precision": 0.2,
+            "recall": 0.5,
+            "f1": 0.28571428571428575,
+            "ndcg": 0.2741708125981702,
+            "mrr": 0.2,
+            "hits": 2
+          },
+          "20": {
+            "precision": 0.15,
+            "recall": 0.75,
+            "f1": 0.24999999999999997,
+            "ndcg": 0.3796663968332806,
+            "mrr": 0.2,
+            "hits": 3
+          }
+        }
+      }
+    ],
+    "agg": {
+      "5": {
+        "precision": 0.4800000000000001,
+        "recall": 0.18480021893814996,
+        "f1": 0.23755368814192343,
+        "ndcg": 0.49036095967539106,
+        "mrr": 0.64,
+        "hits": 12
+      },
+      "10": {
+        "precision": 0.31999999999999995,
+        "recall": 0.2543076081007115,
+        "f1": 0.2398149219201851,
+        "ndcg": 0.40384393399252366,
+        "mrr": 0.64,
+        "hits": 16
+      },
+      "20": {
+        "precision": 0.21999999999999997,
+        "recall": 0.3683470169677066,
+        "f1": 0.23011489987844672,
+        "ndcg": 0.38887774320108504,
+        "mrr": 0.6566666666666667,
+        "hits": 22
+      }
+    }
+  },
+  "sel_filter_rerank_signal": {
+    "per_query": [
+      {
+        "qid": "RealScholarQuery_1",
+        "hits_total": 9,
+        "matched": [
+          "An Explanation of In-context Learning as Implicit Bayesian Inference",
+          "Pre-Training to Learn in Context",
+          "In-context Pretraining: Language Modeling Beyond Document Boundaries",
+          "The learnability of in-context learning",
+          "Explaining Emergent In-Context Learning as Kernel Regression",
+          "A theory of emergent in-context learning as implicit structure induction",
+          "Understanding in-context learning via supportive pretraining data",
+          "Language Models \"\"Grok\"\" to Copy",
+          "Parallel Structures in Pre-training Data Yield In-Context Learning"
+        ],
+        "metrics": {
+          "5": {
+            "precision": 0.6,
+            "recall": 0.10344827586206896,
+            "f1": 0.17647058823529413,
+            "ndcg": 0.639945385422766,
+            "mrr": 1.0,
+            "hits": 3
+          },
+          "10": {
+            "precision": 0.5,
+            "recall": 0.1724137931034483,
+            "f1": 0.25641025641025644,
+            "ndcg": 0.5572998242663684,
+            "mrr": 1.0,
+            "hits": 5
+          },
+          "20": {
+            "precision": 0.45,
+            "recall": 0.3103448275862069,
+            "f1": 0.3673469387755102,
+            "ndcg": 0.5040154454043237,
+            "mrr": 1.0,
+            "hits": 9
+          }
+        }
+      },
+      {
+        "qid": "RealScholarQuery_7",
+        "hits_total": 8,
+        "matched": [
+          "Learning To Recognize Procedural Activities with Distant Supervision",
+          "Video ReCap: Recursive Captioning of Hour-Long Videos",
+          "DrVideo: Document Retrieval Based Long Video Understanding",
+          "MLVU: A Comprehensive Benchmark for Multi-Task Long Video Understanding",
+          "Koala: Key frame-conditioned long video-LLM",
+          "LLMs Meet Long Video: Advancing Long Video Comprehension with An Interactive Visual Adapter in LLMs",
+          "Dense-Captioning Events in Videos",
+          "LongVideoBench: A Benchmark for Long-context Interleaved Video-Language Understanding"
+        ],
+        "metrics": {
+          "5": {
+            "precision": 0.2,
+            "recall": 0.02857142857142857,
+            "f1": 0.049999999999999996,
+            "ndcg": 0.13120507751234178,
+            "mrr": 0.2,
+            "hits": 1
+          },
+          "10": {
+            "precision": 0.2,
+            "recall": 0.05714285714285714,
+            "f1": 0.08888888888888888,
+            "ndcg": 0.15850703974098102,
+            "mrr": 0.2,
+            "hits": 2
+          },
+          "20": {
+            "precision": 0.3,
+            "recall": 0.17142857142857143,
+            "f1": 0.21818181818181817,
+            "ndcg": 0.23849031072742627,
+            "mrr": 0.2,
+            "hits": 6
+          }
+        }
+      },
+      {
+        "qid": "RealScholarQuery_17",
+        "hits_total": 4,
+        "matched": [
+          "When does In-context Learning Fall Short and Why? A Study on   Specification-Heavy Tasks",
+          "MetaIE: Distilling a Meta Model from LLM for All Kinds of Information Extraction Tasks",
+          "Large Language Model Is Not a Good Few-shot Information Extractor, but a Good Reranker for Hard Samples!",
+          "Thinking about GPT-3 In-Context Learning for Biomedical IE? Think Again"
+        ],
+        "metrics": {
+          "5": {
+            "precision": 0.8,
+            "recall": 0.4444444444444444,
+            "f1": 0.5714285714285714,
+            "ndcg": 0.7860137352654724,
+            "mrr": 1.0,
+            "hits": 4
+          },
+          "10": {
+            "precision": 0.4,
+            "recall": 0.4444444444444444,
+            "f1": 0.4210526315789474,
+            "ndcg": 0.544724962953007,
+            "mrr": 1.0,
+            "hits": 4
+          },
+          "20": {
+            "precision": 0.2,
+            "recall": 0.4444444444444444,
+            "f1": 0.2758620689655173,
+            "ndcg": 0.544724962953007,
+            "mrr": 1.0,
+            "hits": 4
+          }
+        }
+      },
+      {
+        "qid": "RealScholarQuery_40",
+        "hits_total": 3,
+        "matched": [
+          "EfficientQAT: Efficient Quantization-Aware Training for Large Language   Models",
+          "EdgeQAT: Entropy and Distribution Guided Quantization-Aware Training for\n  the Acceleration of Lightweight LLMs on the Edge",
+          "Low-Rank Quantization-Aware Training for LLMs"
+        ],
+        "metrics": {
+          "5": {
+            "precision": 0.2,
+            "recall": 0.2,
+            "f1": 0.20000000000000004,
+            "ndcg": 0.21398626473452756,
+            "mrr": 0.5,
+            "hits": 1
+          },
+          "10": {
+            "precision": 0.1,
+            "recall": 0.2,
+            "f1": 0.13333333333333333,
+            "ndcg": 0.21398626473452756,
+            "mrr": 0.5,
+            "hits": 1
+          },
+          "20": {
+            "precision": 0.05,
+            "recall": 0.2,
+            "f1": 0.08000000000000002,
+            "ndcg": 0.21398626473452756,
+            "mrr": 0.5,
+            "hits": 1
+          }
+        }
+      },
+      {
+        "qid": "RealScholarQuery_47",
+        "hits_total": 3,
+        "matched": [
+          "Towards a Realistic Long-Term Benchmark for Open-Web Research Agents",
+          "Financial Knowledge Large Language Model",
+          "FinEval: A Chinese Financial Domain Knowledge Evaluation Benchmark for Large Language Models"
+        ],
+        "metrics": {
+          "5": {
+            "precision": 0.2,
+            "recall": 0.25,
+            "f1": 0.22222222222222224,
+            "ndcg": 0.3903800499921017,
+            "mrr": 1.0,
+            "hits": 1
+          },
+          "10": {
+            "precision": 0.2,
+            "recall": 0.5,
+            "f1": 0.28571428571428575,
+            "ndcg": 0.5078961547485289,
+            "mrr": 1.0,
+            "hits": 2
+          },
+          "20": {
+            "precision": 0.15,
+            "recall": 0.75,
+            "f1": 0.24999999999999997,
+            "ndcg": 0.616789915816761,
+            "mrr": 1.0,
+            "hits": 3
+          }
+        }
+      }
+    ],
+    "agg": {
+      "5": {
+        "precision": 0.4,
+        "recall": 0.2052928297755884,
+        "f1": 0.24402427637721757,
+        "ndcg": 0.4323061025854419,
+        "mrr": 0.74,
+        "hits": 10
+      },
+      "10": {
+        "precision": 0.28,
+        "recall": 0.27480021893815,
+        "f1": 0.23707987918514237,
+        "ndcg": 0.3964828492886826,
+        "mrr": 0.74,
+        "hits": 14
+      },
+      "20": {
+        "precision": 0.22999999999999998,
+        "recall": 0.37524356869184455,
+        "f1": 0.23827816518456918,
+        "ndcg": 0.4236013799272092,
+        "mrr": 0.74,
+        "hits": 23
+      }
+    }
+  },
+  "sel_topN_rerank": {
+    "per_query": [
+      {
+        "qid": "RealScholarQuery_1",
+        "hits_total": 10,
+        "matched": [
+          "An Explanation of In-context Learning as Implicit Bayesian Inference",
+          "Pre-Training to Learn in Context",
+          "In-context Pretraining: Language Modeling Beyond Document Boundaries",
+          "The learnability of in-context learning",
+          "Explaining Emergent In-Context Learning as Kernel Regression",
+          "A theory of emergent in-context learning as implicit structure induction",
+          "Understanding in-context learning via supportive pretraining data",
+          "Language Models \"\"Grok\"\" to Copy",
+          "A Mechanism for Sample-Efficient In-Context Learning for Sparse Retrieval Tasks",
+          "Parallel Structures in Pre-training Data Yield In-Context Learning"
+        ],
+        "metrics": {
+          "5": {
+            "precision": 0.4,
+            "recall": 0.06896551724137931,
+            "f1": 0.1176470588235294,
+            "ndcg": 0.5087403079104241,
+            "mrr": 1.0,
+            "hits": 2
+          },
+          "10": {
+            "precision": 0.4,
+            "recall": 0.13793103448275862,
+            "f1": 0.20512820512820515,
+            "ndcg": 0.4779671403625728,
+            "mrr": 1.0,
+            "hits": 4
+          },
+          "20": {
+            "precision": 0.3,
+            "recall": 0.20689655172413793,
+            "f1": 0.24489795918367346,
+            "ndcg": 0.3787245686340576,
+            "mrr": 1.0,
+            "hits": 6
+          }
+        }
+      },
+      {
+        "qid": "RealScholarQuery_7",
+        "hits_total": 8,
+        "matched": [
+          "Learning To Recognize Procedural Activities with Distant Supervision",
+          "Video ReCap: Recursive Captioning of Hour-Long Videos",
+          "DrVideo: Document Retrieval Based Long Video Understanding",
+          "MLVU: A Comprehensive Benchmark for Multi-Task Long Video Understanding",
+          "Koala: Key frame-conditioned long video-LLM",
+          "LLMs Meet Long Video: Advancing Long Video Comprehension with An Interactive Visual Adapter in LLMs",
+          "Dense-Captioning Events in Videos",
+          "LongVideoBench: A Benchmark for Long-context Interleaved Video-Language Understanding"
+        ],
+        "metrics": {
+          "5": {
+            "precision": 0.2,
+            "recall": 0.02857142857142857,
+            "f1": 0.049999999999999996,
+            "ndcg": 0.13120507751234178,
+            "mrr": 0.2,
+            "hits": 1
+          },
+          "10": {
+            "precision": 0.2,
+            "recall": 0.05714285714285714,
+            "f1": 0.08888888888888888,
+            "ndcg": 0.15850703974098102,
+            "mrr": 0.2,
+            "hits": 2
+          },
+          "20": {
+            "precision": 0.3,
+            "recall": 0.17142857142857143,
+            "f1": 0.21818181818181817,
+            "ndcg": 0.2412801338387444,
+            "mrr": 0.2,
+            "hits": 6
+          }
+        }
+      },
+      {
+        "qid": "RealScholarQuery_17",
+        "hits_total": 5,
+        "matched": [
+          "When does In-context Learning Fall Short and Why? A Study on   Specification-Heavy Tasks",
+          "Guideline Learning for In-context Information Extraction",
+          "MetaIE: Distilling a Meta Model from LLM for All Kinds of Information Extraction Tasks",
+          "Large Language Model Is Not a Good Few-shot Information Extractor, but a Good Reranker for Hard Samples!",
+          "Thinking about GPT-3 In-Context Learning for Biomedical IE? Think Again"
+        ],
+        "metrics": {
+          "5": {
+            "precision": 0.4,
+            "recall": 0.2222222222222222,
+            "f1": 0.2857142857142857,
+            "ndcg": 0.38356636737133565,
+            "mrr": 0.5,
+            "hits": 2
+          },
+          "10": {
+            "precision": 0.2,
+            "recall": 0.2222222222222222,
+            "f1": 0.2105263157894737,
+            "ndcg": 0.26582000527739175,
+            "mrr": 0.5,
+            "hits": 2
+          },
+          "20": {
+            "precision": 0.2,
+            "recall": 0.4444444444444444,
+            "f1": 0.2758620689655173,
+            "ndcg": 0.3765712774730186,
+            "mrr": 0.5,
+            "hits": 4
+          }
+        }
+      },
+      {
+        "qid": "RealScholarQuery_40",
+        "hits_total": 3,
+        "matched": [
+          "EfficientQAT: Efficient Quantization-Aware Training for Large Language   Models",
+          "EdgeQAT: Entropy and Distribution Guided Quantization-Aware Training for\n  the Acceleration of Lightweight LLMs on the Edge",
+          "Low-Rank Quantization-Aware Training for LLMs"
+        ],
+        "metrics": {
+          "5": {
+            "precision": 0.2,
+            "recall": 0.2,
+            "f1": 0.20000000000000004,
+            "ndcg": 0.21398626473452756,
+            "mrr": 0.5,
+            "hits": 1
+          },
+          "10": {
+            "precision": 0.1,
+            "recall": 0.2,
+            "f1": 0.13333333333333333,
+            "ndcg": 0.21398626473452756,
+            "mrr": 0.5,
+            "hits": 1
+          },
+          "20": {
+            "precision": 0.05,
+            "recall": 0.2,
+            "f1": 0.08000000000000002,
+            "ndcg": 0.21398626473452756,
+            "mrr": 0.5,
+            "hits": 1
+          }
+        }
+      },
+      {
+        "qid": "RealScholarQuery_47",
+        "hits_total": 3,
+        "matched": [
+          "Towards a Realistic Long-Term Benchmark for Open-Web Research Agents",
+          "Financial Knowledge Large Language Model",
+          "FinEval: A Chinese Financial Domain Knowledge Evaluation Benchmark for Large Language Models"
+        ],
+        "metrics": {
+          "5": {
+            "precision": 0.2,
+            "recall": 0.25,
+            "f1": 0.22222222222222224,
+            "ndcg": 0.3903800499921017,
+            "mrr": 1.0,
+            "hits": 1
+          },
+          "10": {
+            "precision": 0.1,
+            "recall": 0.25,
+            "f1": 0.14285714285714288,
+            "ndcg": 0.3903800499921017,
+            "mrr": 1.0,
+            "hits": 1
+          },
+          "20": {
+            "precision": 0.15,
+            "recall": 0.75,
+            "f1": 0.24999999999999997,
+            "ndcg": 0.6018069496785557,
+            "mrr": 1.0,
+            "hits": 3
+          }
+        }
+      }
+    ],
+    "agg": {
+      "5": {
+        "precision": 0.27999999999999997,
+        "recall": 0.153951833607006,
+        "f1": 0.17511671335200746,
+        "ndcg": 0.3255756135041462,
+        "mrr": 0.64,
+        "hits": 7
+      },
+      "10": {
+        "precision": 0.2,
+        "recall": 0.17345922276956757,
+        "f1": 0.15614677719940878,
+        "ndcg": 0.301332100021515,
+        "mrr": 0.64,
+        "hits": 10
+      },
+      "20": {
+        "precision": 0.2,
+        "recall": 0.3545539135194308,
+        "f1": 0.2137883692662018,
+        "ndcg": 0.3624738388717808,
+        "mrr": 0.64,
+        "hits": 20
+      }
+    }
+  },
+  "rrf_fusion": {
+    "per_query": [
+      {
+        "qid": "RealScholarQuery_1",
+        "hits_total": 10,
+        "matched": [
+          "An Explanation of In-context Learning as Implicit Bayesian Inference",
+          "Pre-Training to Learn in Context",
+          "The learnability of in-context learning",
+          "In-context Pretraining: Language Modeling Beyond Document Boundaries",
+          "A theory of emergent in-context learning as implicit structure induction",
+          "Understanding in-context learning via supportive pretraining data",
+          "Language Models \"\"Grok\"\" to Copy",
+          "Explaining Emergent In-Context Learning as Kernel Regression",
+          "Parallel Structures in Pre-training Data Yield In-Context Learning",
+          "A Mechanism for Sample-Efficient In-Context Learning for Sparse Retrieval Tasks"
+        ],
+        "metrics": {
+          "5": {
+            "precision": 0.8,
+            "recall": 0.13793103448275862,
+            "f1": 0.2352941176470588,
+            "ndcg": 0.830419897363192,
+            "mrr": 1.0,
+            "hits": 4
+          },
+          "10": {
+            "precision": 0.6,
+            "recall": 0.20689655172413793,
+            "f1": 0.3076923076923077,
+            "ndcg": 0.6809047493604335,
+            "mrr": 1.0,
+            "hits": 6
+          },
+          "20": {
+            "precision": 0.45,
+            "recall": 0.3103448275862069,
+            "f1": 0.3673469387755102,
+            "ndcg": 0.5480785134211905,
+            "mrr": 1.0,
+            "hits": 9
+          }
+        }
+      },
+      {
+        "qid": "RealScholarQuery_7",
+        "hits_total": 8,
+        "matched": [
+          "Video ReCap: Recursive Captioning of Hour-Long Videos",
+          "DrVideo: Document Retrieval Based Long Video Understanding",
+          "Learning To Recognize Procedural Activities with Distant Supervision",
+          "Koala: Key frame-conditioned long video-LLM",
+          "Dense-Captioning Events in Videos",
+          "LLMs Meet Long Video: Advancing Long Video Comprehension with An Interactive Visual Adapter in LLMs",
+          "MLVU: A Comprehensive Benchmark for Multi-Task Long Video Understanding",
+          "LongVideoBench: A Benchmark for Long-context Interleaved Video-Language Understanding"
+        ],
+        "metrics": {
+          "5": {
+            "precision": 0.2,
+            "recall": 0.02857142857142857,
+            "f1": 0.049999999999999996,
+            "ndcg": 0.21398626473452756,
+            "mrr": 0.5,
+            "hits": 1
+          },
+          "10": {
+            "precision": 0.2,
+            "recall": 0.05714285714285714,
+            "f1": 0.08888888888888888,
+            "ndcg": 0.2082936658103318,
+            "mrr": 0.5,
+            "hits": 2
+          },
+          "20": {
+            "precision": 0.3,
+            "recall": 0.17142857142857143,
+            "f1": 0.21818181818181817,
+            "ndcg": 0.28016689318212656,
+            "mrr": 0.5,
+            "hits": 6
+          }
+        }
+      },
+      {
+        "qid": "RealScholarQuery_17",
+        "hits_total": 5,
+        "matched": [
+          "When does In-context Learning Fall Short and Why? A Study on   Specification-Heavy Tasks",
+          "Guideline Learning for In-context Information Extraction",
+          "Large Language Model Is Not a Good Few-shot Information Extractor, but a Good Reranker for Hard Samples!",
+          "MetaIE: Distilling a Meta Model from LLM for All Kinds of Information Extraction Tasks",
+          "Thinking about GPT-3 In-Context Learning for Biomedical IE? Think Again"
+        ],
+        "metrics": {
+          "5": {
+            "precision": 0.4,
+            "recall": 0.2222222222222222,
+            "f1": 0.2857142857142857,
+            "ndcg": 0.5087403079104241,
+            "mrr": 1.0,
+            "hits": 2
+          },
+          "10": {
+            "precision": 0.2,
+            "recall": 0.2222222222222222,
+            "f1": 0.2105263157894737,
+            "ndcg": 0.35256832412172806,
+            "mrr": 1.0,
+            "hits": 2
+          },
+          "20": {
+            "precision": 0.25,
+            "recall": 0.5555555555555556,
+            "f1": 0.3448275862068966,
+            "ndcg": 0.5379829984365999,
+            "mrr": 1.0,
+            "hits": 5
+          }
+        }
+      },
+      {
+        "qid": "RealScholarQuery_40",
+        "hits_total": 3,
+        "matched": [
+          "EfficientQAT: Efficient Quantization-Aware Training for Large Language   Models",
+          "Low-Rank Quantization-Aware Training for LLMs",
+          "EdgeQAT: Entropy and Distribution Guided Quantization-Aware Training for\n  the Acceleration of Lightweight LLMs on the Edge"
+        ],
+        "metrics": {
+          "5": {
+            "precision": 0.2,
+            "recall": 0.2,
+            "f1": 0.20000000000000004,
+            "ndcg": 0.13120507751234178,
+            "mrr": 0.2,
+            "hits": 1
+          },
+          "10": {
+            "precision": 0.1,
+            "recall": 0.2,
+            "f1": 0.13333333333333333,
+            "ndcg": 0.13120507751234178,
+            "mrr": 0.2,
+            "hits": 1
+          },
+          "20": {
+            "precision": 0.05,
+            "recall": 0.2,
+            "f1": 0.08000000000000002,
+            "ndcg": 0.13120507751234178,
+            "mrr": 0.2,
+            "hits": 1
+          }
+        }
+      },
+      {
+        "qid": "RealScholarQuery_47",
+        "hits_total": 3,
+        "matched": [
+          "Towards a Realistic Long-Term Benchmark for Open-Web Research Agents",
+          "Financial Knowledge Large Language Model",
+          "FinEval: A Chinese Financial Domain Knowledge Evaluation Benchmark for Large Language Models"
+        ],
+        "metrics": {
+          "5": {
+            "precision": 0.2,
+            "recall": 0.25,
+            "f1": 0.22222222222222224,
+            "ndcg": 0.16812753627111746,
+            "mrr": 0.25,
+            "hits": 1
+          },
+          "10": {
+            "precision": 0.3,
+            "recall": 0.75,
+            "f1": 0.4285714285714285,
+            "ndcg": 0.4200288571308283,
+            "mrr": 0.25,
+            "hits": 3
+          },
+          "20": {
+            "precision": 0.15,
+            "recall": 0.75,
+            "f1": 0.24999999999999997,
+            "ndcg": 0.4200288571308283,
+            "mrr": 0.25,
+            "hits": 3
+          }
+        }
+      }
+    ],
+    "agg": {
+      "5": {
+        "precision": 0.36,
+        "recall": 0.16774493705528187,
+        "f1": 0.19864612511671337,
+        "ndcg": 0.37049581675832066,
+        "mrr": 0.5900000000000001,
+        "hits": 9
+      },
+      "10": {
+        "precision": 0.28,
+        "recall": 0.28725232621784347,
+        "f1": 0.2338024548550864,
+        "ndcg": 0.3586001347871327,
+        "mrr": 0.5900000000000001,
+        "hits": 14
+      },
+      "20": {
+        "precision": 0.24,
+        "recall": 0.39746579091406675,
+        "f1": 0.252071268632845,
+        "ndcg": 0.3834924679366175,
+        "mrr": 0.5900000000000001,
+        "hits": 24
+      }
+    }
+  }
+}

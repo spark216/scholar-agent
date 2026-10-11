@@ -1,0 +1,40 @@
+{
+  "query": "查找2022年以后使用Alpha方法在RobotSet数据集上进行真实机器人实验的论文，排除仅仿真工作",
+  "understanding": {
+    "intent": "真实机器人 Alpha 方法论文检索",
+    "is_paper_search": true,
+    "domain": "robotics",
+    "topics": ["真实机器人实验"],
+    "entities": ["Alpha", "RobotSet"],
+    "methods": ["Alpha"],
+    "datasets": ["RobotSet"],
+    "venues": [],
+    "time_range": "2022-2026",
+    "keywords": ["Alpha", "RobotSet", "real robot"],
+    "language": "zh+en",
+    "sub_queries": ["Alpha RobotSet real robot"],
+    "rewritten_queries": ["Alpha RobotSet real robot paper"],
+    "raw_json": {
+      "parser_version": "fixture-v1",
+      "constraints": [
+        {
+          "id": "C-real",
+          "facet": "real_robot",
+          "operator": "contains",
+          "value": "real robot",
+          "hardness": "hard",
+          "polarity": "positive"
+        },
+        {
+          "id": "C-no-sim",
+          "facet": "simulation_only",
+          "operator": "contains",
+          "value": "simulation only",
+          "hardness": "hard",
+          "polarity": "negative"
+        }
+      ],
+      "output_intent": ["ranked_list", "comparison_matrix"]
+    }
+  }
+}

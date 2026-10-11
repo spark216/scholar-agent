@@ -1,0 +1,90 @@
+{
+  "test": "planC-vs-baseline-5q",
+  "date": "2026-08-21",
+  "dataset": "pasa-real",
+  "sample_limit": 5,
+  "baseline_run": "493d12fe1be3402f8ce1f67719ea7a5a",
+  "planC_run": "23f91983bc294841812fed021aaa7169",
+  "metrics_at5": {
+    "baseline": {
+      "precision": 0.08,
+      "recall": 0.0469,
+      "f1": 0.0518,
+      "ndcg": 0.1017,
+      "mrr": 0.2667
+    },
+    "planC": {
+      "precision": 0.08,
+      "recall": 0.0469,
+      "f1": 0.0518,
+      "ndcg": 0.1106,
+      "mrr": 0.3
+    }
+  },
+  "metrics_at10": {
+    "baseline": {
+      "precision": 0.04,
+      "recall": 0.0469,
+      "f1": 0.0369,
+      "ndcg": 0.0779,
+      "mrr": 0.2667
+    },
+    "planC": {
+      "precision": 0.04,
+      "recall": 0.0469,
+      "f1": 0.0369,
+      "ndcg": 0.0868,
+      "mrr": 0.3
+    }
+  },
+  "per_query": [
+    {
+      "qid": "RealScholarQuery_1",
+      "base_matched": 1,
+      "plan_matched": 1,
+      "base_mrr5": 1.0,
+      "plan_mrr5": 1.0
+    },
+    {
+      "qid": "RealScholarQuery_7",
+      "base_matched": 0,
+      "plan_matched": 0,
+      "base_mrr5": 0.0,
+      "plan_mrr5": 0.0
+    },
+    {
+      "qid": "RealScholarQuery_17",
+      "base_matched": 0,
+      "plan_matched": 0,
+      "base_mrr5": 0.0,
+      "plan_mrr5": 0.0
+    },
+    {
+      "qid": "RealScholarQuery_40",
+      "base_matched": 1,
+      "plan_matched": 1,
+      "base_mrr5": 0.3333,
+      "plan_mrr5": 0.5
+    },
+    {
+      "qid": "RealScholarQuery_47",
+      "base_matched": 0,
+      "plan_matched": 0,
+      "base_mrr5": 0.0,
+      "plan_mrr5": 0.0
+    }
+  ],
+  "summary": {
+    "MRR5_delta": 0.0333,
+    "nDCG5_delta": 0.0089,
+    "recall5_delta": 0.0,
+    "api_calls": {
+      "base": 47,
+      "plan": 48
+    },
+    "mean_latency_s": {
+      "base": 236.2,
+      "plan": 244.4
+    }
+  }
+}

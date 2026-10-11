@@ -1,0 +1,402 @@
+{
+  "queries": [
+    {
+      "qid": "RealScholarQuery_0",
+      "candidates": 176
+    },
+    {
+      "qid": "RealScholarQuery_1",
+      "candidates": 166
+    },
+    {
+      "qid": "RealScholarQuery_2",
+      "candidates": 160
+    }
+  ],
+  "variants": {
+    "full": [
+      {
+        "cards": 176,
+        "cards_with_evidence": 0,
+        "matrix_rows": 176,
+        "matrix_cells": 1056,
+        "matrix_unknown": 1053,
+        "timeline_entries": 176,
+        "graph_nodes": 179,
+        "graph_edges": 3,
+        "graph_illegal_edges": 0,
+        "comparability_pairs": 15400,
+        "claims": 13,
+        "claims_cited": 5,
+        "claim_citation_precision": 0.38461538461538464
+      },
+      {
+        "cards": 166,
+        "cards_with_evidence": 0,
+        "matrix_rows": 166,
+        "matrix_cells": 166,
+        "matrix_unknown": 162,
+        "timeline_entries": 166,
+        "graph_nodes": 167,
+        "graph_edges": 4,
+        "graph_illegal_edges": 0,
+        "comparability_pairs": 0,
+        "claims": 3,
+        "claims_cited": 2,
+        "claim_citation_precision": 0.6666666666666666
+      },
+      {
+        "cards": 160,
+        "cards_with_evidence": 0,
+        "matrix_rows": 160,
+        "matrix_cells": 160,
+        "matrix_unknown": 160,
+        "timeline_entries": 160,
+        "graph_nodes": 160,
+        "graph_edges": 0,
+        "graph_illegal_edges": 0,
+        "comparability_pairs": 0,
+        "claims": 7,
+        "claims_cited": 1,
+        "claim_citation_precision": 0.14285714285714285
+      }
+    ],
+    "no_ranked_list": [
+      {
+        "matrix_rows": 176,
+        "matrix_cells": 1056,
+        "matrix_unknown": 1053,
+        "timeline_entries": 176,
+        "graph_nodes": 179,
+        "graph_edges": 3,
+        "graph_illegal_edges": 0,
+        "comparability_pairs": 15400,
+        "claims": 13,
+        "claims_cited": 5,
+        "claim_citation_precision": 0.38461538461538464
+      },
+      {
+        "matrix_rows": 166,
+        "matrix_cells": 166,
+        "matrix_unknown": 162,
+        "timeline_entries": 166,
+        "graph_nodes": 167,
+        "graph_edges": 4,
+        "graph_illegal_edges": 0,
+        "comparability_pairs": 0,
+        "claims": 3,
+        "claims_cited": 2,
+        "claim_citation_precision": 0.6666666666666666
+      },
+      {
+        "matrix_rows": 160,
+        "matrix_cells": 160,
+        "matrix_unknown": 160,
+        "timeline_entries": 160,
+        "graph_nodes": 160,
+        "graph_edges": 0,
+        "graph_illegal_edges": 0,
+        "comparability_pairs": 0,
+        "claims": 7,
+        "claims_cited": 1,
+        "claim_citation_precision": 0.14285714285714285
+      }
+    ],
+    "no_comparison_matrix": [
+      {
+        "cards": 176,
+        "cards_with_evidence": 0,
+        "timeline_entries": 176,
+        "graph_nodes": 179,
+        "graph_edges": 3,
+        "graph_illegal_edges": 0,
+        "comparability_pairs": 15400,
+        "claims": 13,
+        "claims_cited": 5,
+        "claim_citation_precision": 0.38461538461538464
+      },
+      {
+        "cards": 166,
+        "cards_with_evidence": 0,
+        "timeline_entries": 166,
+        "graph_nodes": 167,
+        "graph_edges": 4,
+        "graph_illegal_edges": 0,
+        "comparability_pairs": 0,
+        "claims": 3,
+        "claims_cited": 2,
+        "claim_citation_precision": 0.6666666666666666
+      },
+      {
+        "cards": 160,
+        "cards_with_evidence": 0,
+        "timeline_entries": 160,
+        "graph_nodes": 160,
+        "graph_edges": 0,
+        "graph_illegal_edges": 0,
+        "comparability_pairs": 0,
+        "claims": 7,
+        "claims_cited": 1,
+        "claim_citation_precision": 0.14285714285714285
+      }
+    ],
+    "no_timeline": [
+      {
+        "cards": 176,
+        "cards_with_evidence": 0,
+        "matrix_rows": 176,
+        "matrix_cells": 1056,
+        "matrix_unknown": 1053,
+        "graph_nodes": 179,
+        "graph_edges": 3,
+        "graph_illegal_edges": 0,
+        "comparability_pairs": 15400,
+        "claims": 13,
+        "claims_cited": 5,
+        "claim_citation_precision": 0.38461538461538464
+      },
+      {
+        "cards": 166,
+        "cards_with_evidence": 0,
+        "matrix_rows": 166,
+        "matrix_cells": 166,
+        "matrix_unknown": 162,
+        "graph_nodes": 167,
+        "graph_edges": 4,
+        "graph_illegal_edges": 0,
+        "comparability_pairs": 0,
+        "claims": 3,
+        "claims_cited": 2,
+        "claim_citation_precision": 0.6666666666666666
+      },
+      {
+        "cards": 160,
+        "cards_with_evidence": 0,
+        "matrix_rows": 160,
+        "matrix_cells": 160,
+        "matrix_unknown": 160,
+        "graph_nodes": 160,
+        "graph_edges": 0,
+        "graph_illegal_edges": 0,
+        "comparability_pairs": 0,
+        "claims": 7,
+        "claims_cited": 1,
+        "claim_citation_precision": 0.14285714285714285
+      }
+    ],
+    "no_evidence_graph": [
+      {
+        "cards": 176,
+        "cards_with_evidence": 0,
+        "matrix_rows": 176,
+        "matrix_cells": 1056,
+        "matrix_unknown": 1053,
+        "timeline_entries": 176,
+        "comparability_pairs": 15400,
+        "claims": 13,
+        "claims_cited": 5,
+        "claim_citation_precision": 0.38461538461538464
+      },
+      {
+        "cards": 166,
+        "cards_with_evidence": 0,
+        "matrix_rows": 166,
+        "matrix_cells": 166,
+        "matrix_unknown": 162,
+        "timeline_entries": 166,
+        "comparability_pairs": 0,
+        "claims": 3,
+        "claims_cited": 2,
+        "claim_citation_precision": 0.6666666666666666
+      },
+      {
+        "cards": 160,
+        "cards_with_evidence": 0,
+        "matrix_rows": 160,
+        "matrix_cells": 160,
+        "matrix_unknown": 160,
+        "timeline_entries": 160,
+        "comparability_pairs": 0,
+        "claims": 7,
+        "claims_cited": 1,
+        "claim_citation_precision": 0.14285714285714285
+      }
+    ],
+    "no_comparability": [
+      {
+        "cards": 176,
+        "cards_with_evidence": 0,
+        "matrix_rows": 176,
+        "matrix_cells": 1056,
+        "matrix_unknown": 1053,
+        "timeline_entries": 176,
+        "graph_nodes": 179,
+        "graph_edges": 3,
+        "graph_illegal_edges": 0,
+        "claims": 13,
+        "claims_cited": 5,
+        "claim_citation_precision": 0.38461538461538464
+      },
+      {
+        "cards": 166,
+        "cards_with_evidence": 0,
+        "matrix_rows": 166,
+        "matrix_cells": 166,
+        "matrix_unknown": 162,
+        "timeline_entries": 166,
+        "graph_nodes": 167,
+        "graph_edges": 4,
+        "graph_illegal_edges": 0,
+        "claims": 3,
+        "claims_cited": 2,
+        "claim_citation_precision": 0.6666666666666666
+      },
+      {
+        "cards": 160,
+        "cards_with_evidence": 0,
+        "matrix_rows": 160,
+        "matrix_cells": 160,
+        "matrix_unknown": 160,
+        "timeline_entries": 160,
+        "graph_nodes": 160,
+        "graph_edges": 0,
+        "graph_illegal_edges": 0,
+        "claims": 7,
+        "claims_cited": 1,
+        "claim_citation_precision": 0.14285714285714285
+      }
+    ],
+    "no_synthesis": [
+      {
+        "cards": 176,
+        "cards_with_evidence": 0,
+        "matrix_rows": 176,
+        "matrix_cells": 1056,
+        "matrix_unknown": 1053,
+        "timeline_entries": 176,
+        "graph_nodes": 179,
+        "graph_edges": 3,
+        "graph_illegal_edges": 0,
+        "comparability_pairs": 15400
+      },
+      {
+        "cards": 166,
+        "cards_with_evidence": 0,
+        "matrix_rows": 166,
+        "matrix_cells": 166,
+        "matrix_unknown": 162,
+        "timeline_entries": 166,
+        "graph_nodes": 167,
+        "graph_edges": 4,
+        "graph_illegal_edges": 0,
+        "comparability_pairs": 0
+      },
+      {
+        "cards": 160,
+        "cards_with_evidence": 0,
+        "matrix_rows": 160,
+        "matrix_cells": 160,
+        "matrix_unknown": 160,
+        "timeline_entries": 160,
+        "graph_nodes": 160,
+        "graph_edges": 0,
+        "graph_illegal_edges": 0,
+        "comparability_pairs": 0
+      }
+    ]
+  },
+  "summary": {
+    "full": {
+      "cards": 167.333,
+      "cards_with_evidence": 0.0,
+      "matrix_rows": 167.333,
+      "matrix_cells": 460.667,
+      "matrix_unknown": 458.333,
+      "timeline_entries": 167.333,
+      "graph_nodes": 168.667,
+      "graph_edges": 2.333,
+      "graph_illegal_edges": 0.0,
+      "comparability_pairs": 5133.333,
+      "claims": 7.667,
+      "claims_cited": 2.667,
+      "claim_citation_precision": 0.398
+    },
+    "no_ranked_list": {
+      "matrix_rows": 167.333,
+      "matrix_cells": 460.667,
+      "matrix_unknown": 458.333,
+      "timeline_entries": 167.333,
+      "graph_nodes": 168.667,
+      "graph_edges": 2.333,
+      "graph_illegal_edges": 0.0,
+      "comparability_pairs": 5133.333,
+      "claims": 7.667,
+      "claims_cited": 2.667,
+      "claim_citation_precision": 0.398
+    },
+    "no_comparison_matrix": {
+      "cards": 167.333,
+      "cards_with_evidence": 0.0,
+      "timeline_entries": 167.333,
+      "graph_nodes": 168.667,
+      "graph_edges": 2.333,
+      "graph_illegal_edges": 0.0,
+      "comparability_pairs": 5133.333,
+      "claims": 7.667,
+      "claims_cited": 2.667,
+      "claim_citation_precision": 0.398
+    },
+    "no_timeline": {
+      "cards": 167.333,
+      "cards_with_evidence": 0.0,
+      "matrix_rows": 167.333,
+      "matrix_cells": 460.667,
+      "matrix_unknown": 458.333,
+      "graph_nodes": 168.667,
+      "graph_edges": 2.333,
+      "graph_illegal_edges": 0.0,
+      "comparability_pairs": 5133.333,
+      "claims": 7.667,
+      "claims_cited": 2.667,
+      "claim_citation_precision": 0.398
+    },
+    "no_evidence_graph": {
+      "cards": 167.333,
+      "cards_with_evidence": 0.0,
+      "matrix_rows": 167.333,
+      "matrix_cells": 460.667,
+      "matrix_unknown": 458.333,
+      "timeline_entries": 167.333,
+      "comparability_pairs": 5133.333,
+      "claims": 7.667,
+      "claims_cited": 2.667,
+      "claim_citation_precision": 0.398
+    },
+    "no_comparability": {
+      "cards": 167.333,
+      "cards_with_evidence": 0.0,
+      "matrix_rows": 167.333,
+      "matrix_cells": 460.667,
+      "matrix_unknown": 458.333,
+      "timeline_entries": 167.333,
+      "graph_nodes": 168.667,
+      "graph_edges": 2.333,
+      "graph_illegal_edges": 0.0,
+      "claims": 7.667,
+      "claims_cited": 2.667,
+      "claim_citation_precision": 0.398
+    },
+    "no_synthesis": {
+      "cards": 167.333,
+      "cards_with_evidence": 0.0,
+      "matrix_rows": 167.333,
+      "matrix_cells": 460.667,
+      "matrix_unknown": 458.333,
+      "timeline_entries": 167.333,
+      "graph_nodes": 168.667,
+      "graph_edges": 2.333,
+      "graph_illegal_edges": 0.0,
+      "comparability_pairs": 5133.333
+    }
+  }
+}
